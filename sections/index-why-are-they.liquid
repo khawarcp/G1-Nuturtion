@@ -1,14 +1,20 @@
 
-
-<section class="who-are-they-sec" style="background-image:url('https://cdn.shopify.com/s/files/1/0666/2904/2400/files/who-they-are-bg.png?v=1664432304')">
+{% if section.settings.background_image != blank %}
+<section class="who-are-they-sec" style="background-image:url('{{ section.settings.background_image | img_url: 'master' }}')">
+{% else %}
+<section class="who-are-they-sec" style="background-image:url('{{ 'collection-5' | placeholder_svg_tag }}')">
+{% endif %}
   <div class="page-width">
     <div class="who-are-they-content">
-      <h1>Who are they?</h1>
-      <p>They are late 20’s to 65 year old successful and active men and women, who are upper middle class, and live healthy and social lives.
-        They shop at Whole Foods and Farmer’s Markets. These are well to do, well-educated active adults.</p>
+      <h1> {{ section.settings.heading }} </h1>
+      <p> {{ section.settings.info }}</p>
       <div class="who-are-they-btns">
-        <a href="#" class="who-readmore cus-site-btn"><span>Read More</span></a>
-        <a href="#" class="who-phone"><img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/phone-svg.svg?v=1664956360">(505) 555-0125</a>
+        {% if section.settings.button_text != blank %}
+        <a href="{{ section.settings.button_link }}" class="who-readmore cus-site-btn"><span> {{ section.settings.button_text }}</span></a>
+        {% endif %}
+        {% if section.settings.number != blank %}
+        <a href="tel:{{ section.settings.number }}" class="who-phone"><img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/phone-svg.svg?v=1664956360"> {{ section.settings.number }}</a>
+        {% endif %}
       </div>
     </div>
   </div>
