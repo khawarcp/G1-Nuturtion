@@ -9,9 +9,15 @@
     <div class="item">
       <div class="nutrition-slider-col">
         <div class="nutrition-slider-col-img">
-          <img src="{{ block.settings.slider_img | img_url:'master' }}" alt="" loading="lazy">
+          {%if block.settings.slider_img != blank %}
+          <img src="{{ block.settings.slider_img | img_url : 'master' }}" alt="{{ block.settings.slider_img.alt }}" loading="lazy"> 
+          {% else %}
+            {{ 'image' | placeholder_svg_tag }}
+          {% endif %}
         </div>
+        {% if block.settings.button_text != blank %}
         <a href="{{ block.settings.button_link }}">{{ block.settings.button_text }} <img src="{{ 'right-arrow.png' | asset_img_url }}" loading="lazy"></a>
+        {% endif %}
       </div>
     </div>
     {% endfor %}
