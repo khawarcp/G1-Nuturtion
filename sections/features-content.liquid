@@ -1,72 +1,23 @@
 <section class="features-content-sec">
+  {% for block in section.blocks %}
   <div class="features-content-main-row">
     <div class="page-width">
       <div class="stronge-muscle-row">
         <div class="stronge-muscle-img-col">
-          <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/strong-muscle-img1.png?v=1664793737">
+          {% if block.settings.image != blank  %}
+            <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.image.alt }}" loading="lazy">
+          {% else %}
+              {{ 'image' | placeholder_svg_tag }}
+          {% endif %}
         </div>
         <div class="stronge-muscle-text-col">
-          <h2>Stronge Muscle</h2>
-          <p>Sceletium tortuosum contains mesembrine and the related alkaloids mesembranol and mesembranone.
-            Mesembrine is known for its effects on the central nervous system.
-            The compounds may also act as serotonin-uptake inhibitors,
-            and in specified doses possibly act as anti-depressants, minor tranquilizers and anxiolytics used
-            in the treatment of mild to moderate depression.</p>
+          <h2> {{ block.settings.heading }} </h2>
+          <p> {{ block.settings.info }} </p>
         </div>
       </div>
     </div>
   </div>
-  <div class="features-content-main-row">
-    <div class="page-width">
-      <div class="stronge-muscle-row">
-        <div class="stronge-muscle-img-col">
-          <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/strong-muscle-img2.png?v=1664793738">
-        </div>
-        <div class="stronge-muscle-text-col">
-          <h2>Stronge Muscle</h2>
-          <p>Sceletium tortuosum contains mesembrine and the related alkaloids mesembranol and mesembranone.
-            Mesembrine is known for its effects on the central nervous system.
-            The compounds may also act as serotonin-uptake inhibitors,
-            and in specified doses possibly act as anti-depressants, minor tranquilizers and anxiolytics used
-            in the treatment of mild to moderate depression.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="features-content-main-row">
-    <div class="page-width">
-      <div class="stronge-muscle-row">
-        <div class="stronge-muscle-img-col">
-          <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/strong-muscle-img3.png?v=1664793738">
-        </div>
-        <div class="stronge-muscle-text-col">
-          <h2>Stronge Muscle</h2>
-          <p>Sceletium tortuosum contains mesembrine and the related alkaloids mesembranol and mesembranone.
-            Mesembrine is known for its effects on the central nervous system.
-            The compounds may also act as serotonin-uptake inhibitors,
-            and in specified doses possibly act as anti-depressants, minor tranquilizers and anxiolytics used
-            in the treatment of mild to moderate depression.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="features-content-main-row">
-    <div class="page-width">
-      <div class="stronge-muscle-row">
-        <div class="stronge-muscle-img-col">
-          <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/strong-muscle-img4.png?v=1664793738">
-        </div>
-        <div class="stronge-muscle-text-col">
-          <h2>Stronge Muscle</h2>
-          <p>Sceletium tortuosum contains mesembrine and the related alkaloids mesembranol and mesembranone.
-            Mesembrine is known for its effects on the central nervous system.
-            The compounds may also act as serotonin-uptake inhibitors,
-            and in specified doses possibly act as anti-depressants, minor tranquilizers and anxiolytics used
-            in the treatment of mild to moderate depression.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+  {% endfor %}
 </section>
 
 
