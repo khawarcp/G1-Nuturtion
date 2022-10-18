@@ -93,7 +93,81 @@
     },
     "16644485664d751184": {
       "type": "index-customer-reviews",
+      "blocks": {
+        "0e4fc1fa-0117-4f24-85df-09d2971aa415": {
+          "type": "Slide",
+          "settings": {
+            "name": "Leslie Alexander",
+            "post": "Paralegal and Legal Assistant",
+            "review": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Various versions have evolved over the years, sometimes by accident",
+            "image": "shopify:\/\/shop_images\/slider1.png"
+          }
+        },
+        "c4bc7928-85dd-49a5-979c-5c88a65c5ad5": {
+          "type": "Slide",
+          "settings": {
+            "name": "Marius Rowe",
+            "post": "Paralegal Politician",
+            "review": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Various versions have evolved over the years, sometimes by accident",
+            "image": "shopify:\/\/shop_images\/slider2.png"
+          }
+        },
+        "450efa0c-4fbb-4755-8c85-7555e73993d0": {
+          "type": "Slide",
+          "settings": {
+            "name": "Albert Faizan Goodman",
+            "post": "Paralegal Sailor",
+            "review": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Various versions have evolved over the years, sometimes by accident",
+            "image": "shopify:\/\/shop_images\/slider3.png"
+          }
+        },
+        "4a548b86-2143-4b4a-93be-4fe30b9bfaad": {
+          "type": "Slide",
+          "settings": {
+            "name": "Lexie Elliott",
+            "post": "Paralegal Pickpocket",
+            "review": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Various versions have evolved over the years, sometimes by accident",
+            "image": "shopify:\/\/shop_images\/slider4.png"
+          }
+        },
+        "3c2c3428-2573-440f-b8f4-6e9a73167921": {
+          "type": "Slide",
+          "settings": {
+            "name": "Lexie Elliott",
+            "post": "Paralegal Pickpocket",
+            "review": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Various versions have evolved over the years, sometimes by accident",
+            "image": "shopify:\/\/shop_images\/slider5.png"
+          }
+        },
+        "f0cd0a3e-1127-4683-a740-7cbed5eb0664": {
+          "type": "Slide",
+          "settings": {
+            "name": "Kia Kramer",
+            "post": "Paralegal Lorem",
+            "review": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Various versions have evolved over the years, sometimes by accident",
+            "image": "shopify:\/\/shop_images\/slider6.png"
+          }
+        },
+        "16504542-63c1-4305-8bc8-7119409165fb": {
+          "type": "Slide",
+          "settings": {
+            "name": "",
+            "post": "",
+            "review": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Various versions have evolved over the years, sometimes by accident"
+          }
+        }
+      },
+      "block_order": [
+        "0e4fc1fa-0117-4f24-85df-09d2971aa415",
+        "c4bc7928-85dd-49a5-979c-5c88a65c5ad5",
+        "450efa0c-4fbb-4755-8c85-7555e73993d0",
+        "4a548b86-2143-4b4a-93be-4fe30b9bfaad",
+        "3c2c3428-2573-440f-b8f4-6e9a73167921",
+        "f0cd0a3e-1127-4683-a740-7cbed5eb0664",
+        "16504542-63c1-4305-8bc8-7119409165fb"
+      ],
       "settings": {
+        "heading": "Customer Reviews"
       }
     },
     "166444776615c2052a": {
