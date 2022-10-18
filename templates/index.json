@@ -87,6 +87,8 @@
     "1664444248859268c1": {
       "type": "index-video-section",
       "settings": {
+        "background_image": "shopify:\/\/shop_images\/home-video-bg.png",
+        "background_url": "#"
       }
     },
     "16644485664d751184": {
