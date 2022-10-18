@@ -1,94 +1,20 @@
 <section class="review-section">
   <div class="page-width">
     <div class="wrapper">
-      <h1>Customer Reviews</h1>
+      <h1> {{ section.settings.heading }} </h1>
       <div class="swiper-wrapper">
         <div class="swiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide swiper-slide-first">
-              <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/slider1.png?v=1664539662" title="slider 1"/>
+            {% for block in section.blocks %}
+            <div class="swiper-slide {% if forloop.first %} swiper-slide-first {% endif %}">
+              <img src="{{ block.settings.image | img_url : "master" }}" loading="lazy" alt="{{ block.settings.image.alt }}" title="{{ block.settings.name }}"/>
               <div class="swiper-content">
-                <p>Leslie Alexander</p>
-                <span>Paralegal and Legal Assistant</span>
+                <p> {{ block.settings.name }} </p>
+                <span>{{ block.settings.post }}</span>
               </div>
-              <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
-                to
-                using 'Content here, content here', making it look like readable English. Various versions have evolved
-                over the
-                years, sometimes by accident,</p>
+              <p>{{ block.settings.review }}</p>
             </div>
-            <div class="swiper-slide">
-              <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/slider2.png?v=1664541377" title="slider 2" />
-              <div class="swiper-content d-none">
-                <p>Marius Rowe</p>
-                <span>Paralegal Politician</span>
-              </div>
-              <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
-                to
-                using 'Content here, content here', making it look like readable English. Various versions have evolved
-                over the
-                years, sometimes by accident,</p>
-            </div>
-            <div class="swiper-slide">
-              <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/slider3.png?v=1664541391" title="slider 3" />
-              <div class="swiper-content d-none">
-                <p>Faizan Goodman</p>
-                <span>Paralegal Sailor</span>
-              </div>
-              <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
-                to
-                using 'Content here, content here', making it look like readable English. Various versions have evolved
-                over the
-                years, sometimes by accident,</p>
-            </div>
-            <div class="swiper-slide">
-              <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/slider4.png?v=1664541404" title="slider 4" />
-              <div class="swiper-content d-none">
-                <p>Lexie Elliott</p>
-                <span>Paralegal Pickpocket</span>
-              </div>
-              <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
-                to
-                using 'Content here, content here', making it look like readable English. Various versions have evolved
-                over the
-                years, sometimes by accident,</p>
-            </div>
-            <div class="swiper-slide">
-              <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/slider5.png?v=1664541434" title="slider 5" />
-              <div class="swiper-content d-none">
-                <p>Lexie Elliott</p>
-                <span>Paralegal Pickpocket</span>
-              </div>
-              <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
-                to
-                using 'Content here, content here', making it look like readable English. Various versions have evolved
-                over the
-                years, sometimes by accident,</p>
-            </div>
-            <div class="swiper-slide">
-              <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/slider6.png?v=1664541766" title="slider 6" />
-              <div class="swiper-content d-none">
-                <p>Lexie Elliott</p>
-                <span>Paralegal Pickpocket</span>
-              </div>
-              <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
-                to
-                using 'Content here, content here', making it look like readable English. Various versions have evolved
-                over the
-                years, sometimes by accident,</p>
-            </div>
-            <div class="swiper-slide">
-              <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/slider7.png?v=1664541819" title="slider 7" />
-              <div class="swiper-content d-none">
-                <p>Kia Kramer</p>
-                <span>Paralegal Lorem </span>
-              </div>
-              <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
-                to
-                using 'Content here, content here', making it look like readable English. Various versions have evolved
-                over the
-                years, sometimes by accident,</p>
-            </div>
+            {% endif %}
           </div>
         </div>
       </div>
