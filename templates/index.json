@@ -151,9 +151,10 @@
         "16504542-63c1-4305-8bc8-7119409165fb": {
           "type": "Slide",
           "settings": {
-            "name": "",
-            "post": "",
-            "review": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Various versions have evolved over the years, sometimes by accident"
+            "name": "Kia Kramer",
+            "post": "Paralegal Lorem",
+            "review": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Various versions have evolved over the years, sometimes by accident",
+            "image": "shopify:\/\/shop_images\/slider7.png"
           }
         }
       },
