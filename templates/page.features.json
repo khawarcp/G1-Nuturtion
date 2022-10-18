@@ -1,0 +1,53 @@
+{
+  "sections": {
+    "16647955650d7e914a": {
+      "type": "page-banner-section",
+      "settings": {
+      }
+    },
+    "featurescontent": {
+      "type": "features-content",
+      "settings": {
+      }
+    },
+    "16647994128bcafd7f": {
+      "type": "newsletter",
+      "blocks": {
+        "1664799412ab3ea2e8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join our mailing list to keep up to date.",
+            "heading_size": "h1"
+          }
+        },
+        "1664799412ab3ea2e8-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": ""
+          }
+        },
+        "1664799412ab3ea2e8-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1664799412ab3ea2e8-0",
+        "1664799412ab3ea2e8-1",
+        "1664799412ab3ea2e8-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "16647955650d7e914a",
+    "featurescontent",
+    "16647994128bcafd7f"
+  ]
+}

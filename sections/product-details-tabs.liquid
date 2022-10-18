@@ -1,0 +1,81 @@
+<section class="product-detail-tabing">
+  <div class="page-width">
+    <div class="tab">
+      <button class="tablinks active" onclick="openCity(event, 'description')">Description</button>
+      <button class="tablinks" onclick="openCity(event, 'additionalinfo')">Additional Information</button>
+      <button class="tablinks" onclick="openCity(event, 'reviews')">Reviews</button>
+    </div>
+     <div class="main-tabcontent">
+        <div id="description" class="tabcontent" style="display:block;">
+          <p>The Khoisan people of South Africa, who use Kanna in folk medicine,
+            introduced the mood elevating plant Sceletium Tortuosum (Kanna) to the western world.
+            It became known to the early colonizers of the Cape in the 17th century.
+            The first known written account of its use was in 1662 by Jan van Riebeeck.
+            Traditional African Medicinal Plants (TAMP) are now quickly gaining interest
+            by Western health-seekers, but still remain largely unknown to most people who
+            do not live on the African continent.  </p>
+          <p>Sceletium is a small genus of low growing succulent shrubs in the ice plant family
+            (Aizoaceae) endemic to the karroo areas of Western,
+            Eastern and Northern Cape Provinces in South Africa. </p>
+        </div>
+        <div id="additionalinfo" class="tabcontent">
+          <div class="additional-tables">
+            <table>
+              <tr>
+                <td>Ingredients</td>
+                <td>Ingredients</td>
+               <td>Ingredients</td>
+               <td>Ingredients</td>
+              </tr>
+              <tr>
+                <td>Ingredients</td>
+                <td>Ingredients</td>
+                <td>Ingredients</td>
+                <td>Ingredients</td>
+              </tr>
+              <tr>
+                <td>Ingredients</td>
+                <td>Ingredients</td>
+                <td>Ingredients</td>
+                <td>Ingredients</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div id="reviews" class="tabcontent">
+        </div>
+     </div>
+  </div>
+</section>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+
+
+
+{% schema %}
+  {
+    "name": "Product Tabbing",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

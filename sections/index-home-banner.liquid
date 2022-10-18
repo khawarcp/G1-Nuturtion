@@ -1,0 +1,83 @@
+<section class="home-banner">
+  <div class="banner-img-70"></div>
+  <div class="page-width">
+    <div class="home-banner-row">
+      <div class="home-text-col">
+        <div class="home-text">
+          <h1>{{ section.settings.banner_title }}</h1>
+          <p>{{ section.settings.banner_content }} </p>
+          <a href="{{ section.settings.home_button_link }}" class="cus-site-btn"><span>{{ section.settings.home_button_text }}</span></a>
+        </div>
+      </div>
+        <div class="home-img-col">
+          <div class="home-img">
+            <img src="{{ section.settings.home_img | img_url : 'master' }}" alt="" loading="lazy"> 
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="home-social-icons">
+    <ul>
+        {% if settings.social_facebook_link != blank %}
+        <li><a href="{{ settings.social_facebook_link }}">Facebook</a></li>
+        {% endif %}
+        {% if settings.social_twitter_link != blank %}
+        <li><a href="{{ settings.social_twitter_link }}">Instagram</a></li>
+        {% endif %}
+        {% if settings.social_instagram_link != blank %}
+        <li><a href="{{ settings.social_instagram_link }}">twitter</a></li>
+        {% endif %}
+    </ul>
+  </div>
+</section>
+
+
+
+
+
+
+{% schema %}
+  {
+    "name": "banner",
+    "settings": [
+      {
+        "type": "text",
+        "id":"banner_title",
+        "label":"Title"
+      },
+      {
+        "type": "text",
+        "id":"banner_content",
+        "label":"Content"
+      },
+      {
+        "type": "image_picker",
+        "id":"home_img",
+        "label":"Image"
+      },
+      {
+        "type": "url",
+        "id":"home_button_link",
+        "label":"Button Link"
+      },
+      {
+        "type": "text",
+        "id":"home_button_text",
+        "label":"Button Text"
+      }
+    ],
+    "presets":
+  [
+     {
+      "name" : "Banner",
+      "category" : "Custom Sections"
+     }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

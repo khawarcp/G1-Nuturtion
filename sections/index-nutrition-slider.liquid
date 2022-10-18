@@ -1,0 +1,70 @@
+<section class="nutrition-slider-sec">
+  <div class="page-width">
+    <div class="nutrition-slider-title">
+      <h1>{{ section.settings.nutrition_slider_title }}</h1>
+    </div>
+  </div>
+  <div class="nutrition-slider-row owl-carousel">
+    {% for block in section.blocks %}
+    <div class="item">
+      <div class="nutrition-slider-col">
+        <div class="nutrition-slider-col-img">
+          <img src="{{ block.settings.slider_img | img_url:'master' }}" alt="" loading="lazy">
+        </div>
+        <a href="{{ block.settings.button_link }}">{{ block.settings.button_text }} <img src="{{ 'right-arrow.png' | asset_img_url }}" loading="lazy"></a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+
+
+
+{% schema %}
+  {
+    "name": "Nutrtion Slider",
+    "settings": [
+      {
+        "type":"text",
+        "id": "nutrition_slider_title",
+        "label":"Title"
+      }
+    ],
+    "blocks" :[
+      {
+        "name":"Slideshow",
+        "type":"slide",
+        "settings":[
+            {
+            "type": "image_picker",
+            "id": "slider_img",
+            "label":"Image"
+            },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label":"Link"
+          },
+          {
+            "type": "text",
+            "id": "button_text",
+            "label":"Text"
+            }
+      ]
+      }
+    ],
+    "presets":[
+      {
+      "name" : "Nutrtion Slider",
+      "category" : "Custom Sections"
+     }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

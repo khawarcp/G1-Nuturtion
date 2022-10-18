@@ -1,0 +1,75 @@
+<section class="brief-history">
+  <div class="page-width">
+    <div class="brief-history-row1">
+      <div class="brief-history-title">
+        <h1>{{ section.settings.brief_title }}</h1>
+      </div>
+      <div class="brief-history-img1-col">
+      <div class="brief-history-img1">
+        <img src="{{ section.settings.brief_img1 | img_url:'master' }}" loading="lazy" alt="">
+      </div>
+      </div>
+    </div>
+    <div class="brief-history-row2">
+      <div class="brief-history-img2">
+       <img src="{{ section.settings.brief_img2 | img_url:'master' }}" alt="" loading="lazy">
+      </div>
+      <div class="brief-history-text">
+        <p>{{ section.settings.brief_content }}</p>
+        <a href="{{ section.settings.brief_button_link }}" class="cus-site-btn"><span>{{ section.settings.brief_button_text }}</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+{% schema %}
+  {
+    "name": "Brief History",
+    "settings": [
+      {
+        "type":"text",
+        "id":"brief_title",
+        "label":"Title"
+      },
+      {
+      "type":"image_picker",
+      "id":"brief_img1",
+      "label":"brief Image 1"
+      },
+      {
+      "type":"text",
+      "id":"brief_content",
+      "label":"Content"
+      },
+      {
+       "type":"image_picker",
+      "id":"brief_img2",
+      "label":"brief Image 2"
+      },
+      {
+        "type":"url",
+        "id":"brief_button_link",
+        "label":"Brief Button Link"
+      },
+      {
+        "type":"text",
+        "id":"brief_button_text",
+        "label":"Brief Button text"
+      }
+    ],
+    "presets":[
+      {
+      "name" : "Brief History",
+      "category" : "Custom Sections"
+     }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

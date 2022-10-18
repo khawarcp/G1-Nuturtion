@@ -1,0 +1,148 @@
+{
+  "sections": {
+    "16642694689f6fafb9": {
+      "type": "index-home-banner",
+      "settings": {
+        "banner_title": "Boost your immune system today with kannect",
+        "banner_content": "Sceletium tortuosum contains mesembrine and the related alkaloids mesembranol and mesembranone.",
+        "home_img": "shopify:\/\/shop_images\/home-img_a6ef0db9-59e2-4464-bbe9-bdf7bb80fce2.png",
+        "home_button_link": "#",
+        "home_button_text": "Shop Now"
+      }
+    },
+    "1664278979bee7b665": {
+      "type": "index-brief-history",
+      "settings": {
+        "brief_title": "A BRIEF HISTORY AND DESCRIPTION OF KANNA",
+        "brief_img1": "shopify:\/\/shop_images\/about-who-are-they_c6ec8da5-914c-429a-8f28-bd5ea5f8c241.png",
+        "brief_content": "The Khoisan people of South Africa, who use Kanna in folk medicine, introduced the mood elevating plant Sceletium Tortuosum (Kanna) to the western world. It became known to the early colonizers of the Cape in the 17th century.",
+        "brief_img2": "shopify:\/\/shop_images\/brief-history-img2.png",
+        "brief_button_link": "#",
+        "brief_button_text": "Read More"
+      }
+    },
+    "1664359492eb12a1bc": {
+      "type": "index-nutrition-slider",
+      "blocks": {
+        "55109c37-a949-48e0-8384-bab26139aa56": {
+          "type": "slide",
+          "settings": {
+            "slider_img": "shopify:\/\/shop_images\/n-slider-img1.png",
+            "button_link": "#",
+            "button_text": "Stronge Muscle"
+          }
+        },
+        "8758a870-0d3b-4c1e-9f58-2db7c9ebf4e6": {
+          "type": "slide",
+          "settings": {
+            "slider_img": "shopify:\/\/shop_images\/nutrition-img2_9ad81b85-c5d3-4f8f-b4ad-ea789b817a84.png",
+            "button_link": "#",
+            "button_text": "Stronge Muscle"
+          }
+        },
+        "d5ee1159-f6b3-4454-837b-fc090006c281": {
+          "type": "slide",
+          "settings": {
+            "slider_img": "shopify:\/\/shop_images\/n-slider-img3_b3c92603-53f5-4c21-a1f4-8662354ff6de.png",
+            "button_link": "#",
+            "button_text": "Stronge Muscle"
+          }
+        },
+        "c9041f49-1ea5-422c-8c24-b757b6986562": {
+          "type": "slide",
+          "settings": {
+            "slider_img": "shopify:\/\/shop_images\/nutrition-img2_9ad81b85-c5d3-4f8f-b4ad-ea789b817a84.png",
+            "button_link": "#",
+            "button_text": "Stronge Muscle"
+          }
+        }
+      },
+      "block_order": [
+        "55109c37-a949-48e0-8384-bab26139aa56",
+        "8758a870-0d3b-4c1e-9f58-2db7c9ebf4e6",
+        "d5ee1159-f6b3-4454-837b-fc090006c281",
+        "c9041f49-1ea5-422c-8c24-b757b6986562"
+      ],
+      "settings": {
+        "nutrition_slider_title": "Nutritions Kannect boost the workouts & the game"
+      }
+    },
+    "1664429162eda43e6a": {
+      "type": "index-featured-product",
+      "settings": {
+      }
+    },
+    "16644333569efe803d": {
+      "type": "index-why-are-they",
+      "settings": {
+      }
+    },
+    "1664444248859268c1": {
+      "type": "index-video-section",
+      "settings": {
+      }
+    },
+    "16644485664d751184": {
+      "type": "index-customer-reviews",
+      "settings": {
+      }
+    },
+    "166444776615c2052a": {
+      "type": "index-faqs-section",
+      "settings": {
+      }
+    },
+    "1664450124eaac1cfd": {
+      "type": "index-latest-stories",
+      "settings": {
+      }
+    },
+    "1664455116c82e8727": {
+      "type": "newsletter",
+      "blocks": {
+        "16644551163053da91-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join our mailing list to keep up to date.",
+            "heading_size": "h1"
+          }
+        },
+        "16644551163053da91-1": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "16644551163053da91-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16644551163053da91-0",
+        "16644551163053da91-1",
+        "16644551163053da91-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "16642694689f6fafb9",
+    "1664278979bee7b665",
+    "1664359492eb12a1bc",
+    "1664429162eda43e6a",
+    "16644333569efe803d",
+    "1664444248859268c1",
+    "16644485664d751184",
+    "166444776615c2052a",
+    "1664450124eaac1cfd",
+    "1664455116c82e8727"
+  ]
+}
