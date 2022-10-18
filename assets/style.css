@@ -2085,32 +2085,44 @@ section.review-section {
 .brief-history-text-col h1 {
     margin-bottom: 15px;
 }
+
+.cus-site-btn span,
 a.cus-site-btn span,
 .home-text a span {
     color: #176c7b;
     position: relative;
     z-index: 2;
 }
+
+.cus-site-btn:before,
 a.cus-site-btn:before,
 .home-text a:before {
     width: 50px;
     margin-left: auto;
     transition: 0.3s all ease;
 }
+
+.cus-site-btn:hover::before,
 a.cus-site-btn:hover::before,
 .home-text a:hover::before {
     width: 100%;
     right: 0px;
 }
+
+.cus-site-btn:hover,
 a.cus-site-btn:hover,
 .home-text a:hover {
     background-color: transparent;
     border-color: transparent;
 }
+
+.cus-site-btn:hover span,
 a.cus-site-btn:hover span,
 .home-text a:hover span {
     color: #fff;
 }
+
+.cus-site-btn,
 a.cus-site-btn,
 .home-text a {
     transition: 0.3s all;
