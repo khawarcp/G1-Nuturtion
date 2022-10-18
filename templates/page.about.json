@@ -7,6 +7,28 @@
     },
     "briefhistory": {
       "type": "about-brief-history",
+      "blocks": {
+        "31fd4761-f8d5-48a0-81d0-6b69c79cd4d8": {
+          "type": "text_with_image",
+          "settings": {
+            "heading": "A BRIEF HISTORY AND DESCRIPTION OF KANNA",
+            "info": "The Khoisan people of South Africa, who use Kanna in folk medicine, introduced the mood elevating plant Sceletium Tortuosum (Kanna) to the western world. It became known to the early colonizers of the Cape in the 17th century. The first known written account of its use was in 1662 by Jan van Riebeeck.",
+            "image": "shopify:\/\/shop_images\/brief-histoty-img.png"
+          }
+        },
+        "3a82f139-259b-4faa-9634-ccfb3c41c6c1": {
+          "type": "text_with_image",
+          "settings": {
+            "heading": "",
+            "info": "Sceletium tortuosum contains mesembrine & the related alkaloids mesembranol & mesembranone. Mesembrine is known for its effects on the central nervous system. The compounds may also act as serotonin-uptake inhibitors, & in specified doses possibly act as anti-depressants, minor tranquilizers & anxiolytics used in the treatment of mild to moderate depression.",
+            "image": "shopify:\/\/shop_images\/brief-history-group-img.png"
+          }
+        }
+      },
+      "block_order": [
+        "31fd4761-f8d5-48a0-81d0-6b69c79cd4d8",
+        "3a82f139-259b-4faa-9634-ccfb3c41c6c1"
+      ],
       "settings": {
       }
     },
@@ -69,11 +91,15 @@
     "166479097897b37e23": {
       "type": "index-featured-product",
       "settings": {
+        "featured_product": ""
       }
     },
     "166479144671b12e46": {
       "type": "index-latest-stories",
       "settings": {
+        "heading": "",
+        "blog": "",
+        "blog_length": 6
       }
     },
     "16647917332d50a135": {
