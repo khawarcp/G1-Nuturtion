@@ -1,21 +1,29 @@
+{% assign product = all_products[section.settings.featured_product] %}
 <section class="home-featured-product">
   <div class="page-width">
     <div class="home-featured-product-row">
       <div class="home-featured-content-col">
         <div class="home-featured-text">
-          <h1>Nutritions Kannect</h1>
+          <h1> {{ product.title | escape }} </h1>
           <div class="home-featured-price">
-            <h3>Price: $84</h3>
-            <p>Sceletium tortuosum contains mesembrine and the related alkaloids mesembranol and mesembranone. </p>
+            <h3>Price: {%- render 'price', product: product, use_variant: true, show_badges: true -%}</h3>
+            <p> {{ product.description | split: '.' | first | append: '.'  }}  </p>
             <div class="readmore-add-to-cart">
-              <a href="#" class="cus-site-btn"><span>Read More</span></a>
-              <button>Add To Cart +</button>
+              <a href="{{ product.url }}" class="cus-site-btn"><span>Read More</span></a>
+               <form action="/cart/add" method="post" class="">
+                  <input type="hidden" value="{{ product.variants.first.id }}" name="id">
+                  <button>Add To Cart +</button>
+               </form>
             </div>
           </div>
         </div>
       </div>
       <div class="home-featured-img-col">
-        <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/kannect-img.png?v=1664429124">
+        {%if product.featured_image != blank %}
+        <img src="{{ product.featured_image | img_url : 'master' }}" alt="{{ product.featured_image.alt }}" loading="lazy">
+        {%else%}
+          {{ 'product-1' | placeholder_svg_tag }}
+        {% endif %}
       </div>
     </div>
   </div>
