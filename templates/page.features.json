@@ -7,6 +7,46 @@
     },
     "featurescontent": {
       "type": "features-content",
+      "blocks": {
+        "90fc7538-986b-48e6-a030-3d8c66f85af2": {
+          "type": "text-with-text",
+          "settings": {
+            "heading": "Stronge Muscle",
+            "info": "Sceletium tortuosum contains mesembrine and the related alkaloids mesembranol and mesembranone. Mesembrine is known for its effects on the central nervous system. The compounds may also act as serotonin-uptake inhibitors, and in specified doses possibly act as anti-depressants, minor tranquilizers and anxiolytics used in the treatment of mild to moderate depression.",
+            "image": "shopify:\/\/shop_images\/strong-muscle-img1.png"
+          }
+        },
+        "902f408f-f7de-46b3-869e-2e33205e031d": {
+          "type": "text-with-text",
+          "settings": {
+            "heading": "Stronge Muscle",
+            "info": "Sceletium tortuosum contains mesembrine and the related alkaloids mesembranol and mesembranone. Mesembrine is known for its effects on the central nervous system. The compounds may also act as serotonin-uptake inhibitors, and in specified doses possibly act as anti-depressants, minor tranquilizers and anxiolytics used in the treatment of mild to moderate depression.",
+            "image": "shopify:\/\/shop_images\/strong-muscle-img2.png"
+          }
+        },
+        "e4448cea-a232-4c43-86aa-3225dadf369f": {
+          "type": "text-with-text",
+          "settings": {
+            "heading": "Stronge Muscle",
+            "info": "Sceletium tortuosum contains mesembrine and the related alkaloids mesembranol and mesembranone. Mesembrine is known for its effects on the central nervous system. The compounds may also act as serotonin-uptake inhibitors, and in specified doses possibly act as anti-depressants, minor tranquilizers and anxiolytics used in the treatment of mild to moderate depression.",
+            "image": "shopify:\/\/shop_images\/strong-muscle-img3.png"
+          }
+        },
+        "ce88fca0-b405-403e-b8d0-9726a0e98b7f": {
+          "type": "text-with-text",
+          "settings": {
+            "heading": "Stronge Muscle",
+            "info": "Sceletium tortuosum contains mesembrine and the related alkaloids mesembranol and mesembranone. Mesembrine is known for its effects on the central nervous system. The compounds may also act as serotonin-uptake inhibitors, and in specified doses possibly act as anti-depressants, minor tranquilizers and anxiolytics used in the treatment of mild to moderate depression.",
+            "image": "shopify:\/\/shop_images\/strong-muscle-img4.png"
+          }
+        }
+      },
+      "block_order": [
+        "90fc7538-986b-48e6-a030-3d8c66f85af2",
+        "902f408f-f7de-46b3-869e-2e33205e031d",
+        "e4448cea-a232-4c43-86aa-3225dadf369f",
+        "ce88fca0-b405-403e-b8d0-9726a0e98b7f"
+      ],
       "settings": {
       }
     },
@@ -20,12 +60,6 @@
             "heading_size": "h1"
           }
         },
-        "1664799412ab3ea2e8-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": ""
-          }
-        },
         "1664799412ab3ea2e8-2": {
           "type": "email_form",
           "settings": {
@@ -34,7 +68,6 @@
       },
       "block_order": [
         "1664799412ab3ea2e8-0",
-        "1664799412ab3ea2e8-1",
         "1664799412ab3ea2e8-2"
       ],
       "settings": {
