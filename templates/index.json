@@ -76,6 +76,12 @@
     "16644333569efe803d": {
       "type": "index-why-are-they",
       "settings": {
+        "heading": "Who are they?",
+        "info": "They are late 20’s to 65 year old successful and active men and women, who are upper middle class, and live healthy and social lives. They shop at Whole Foods and Farmer’s Markets. These are well to do, well-educated active adults.",
+        "button_text": "Read More",
+        "button_link": "#",
+        "number": "(505) 555-0125",
+        "background_image": "shopify:\/\/shop_images\/who-they-are-bg.png"
       }
     },
     "1664444248859268c1": {
