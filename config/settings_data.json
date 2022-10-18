@@ -204,6 +204,9 @@
       "new-footer": {
         "type": "new-footer",
         "settings": {
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "menu_1": "footer",
+          "menu_2": "legal"
         }
       }
     },
