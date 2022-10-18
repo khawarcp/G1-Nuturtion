@@ -2,7 +2,7 @@
   <h1> {{ section.settings.heading }} </h1>
   <div class="latest-stories-slider owl-carousel">
     {% assign articles = blogs[section.settings.blog].articles %}
-    {% for article in articles %}
+    {% for article in articles limit: section.settings.blog_length %}
     <div class="item">
       <div class="lastest-story-col">
         <a href="{{ article.url }}" class="latest-story-img">
@@ -34,6 +34,14 @@
             "type" : "blog",
             "id" : "blog",
               "label" : "Blog"
+          },
+          {
+            "type" : "range",
+            "id" : "blog_length",
+              "label" : "Number of Articles",
+            "min" : 6,
+              "max" : 20,
+              "default" : 6
           }
       ],
     "presets":[
