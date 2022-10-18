@@ -118,12 +118,6 @@
             "heading_size": "h1"
           }
         },
-        "1664791733f20130c2-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": ""
-          }
-        },
         "1664791733f20130c2-2": {
           "type": "email_form",
           "settings": {
@@ -132,7 +126,6 @@
       },
       "block_order": [
         "1664791733f20130c2-0",
-        "1664791733f20130c2-1",
         "1664791733f20130c2-2"
       ],
       "settings": {
