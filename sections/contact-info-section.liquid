@@ -2,24 +2,38 @@
   <div class="page-width">
     <div class="contact-info-flex">
       <div class="contact-info-col">
-        <h2>Find Us</h2>
+        <h2> {{ section.settings.heading }} </h2>
         <ul class="contact-info-list">
-          <li><img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/location-icon.png?v=1664887898"><span>4517 Washington Ave. Manchester, Kentucky 39495</span></li>
-          <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/phone-icon.png?v=1664887914"><span>(239) 555-0108</span></a></li>
-          <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/mail-icon2.png?v=1664887941"><span>bill.sanders@example.com</span></a></li>
-          <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/email-icon.png?v=1664887963">bill.sanders@example.com</a></li>
+          {% if section.settings.address != blank %}
+          <li><img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/location-icon.png?v=1664887898"><span>{{ section.settings.address }}</span></li>
+          {% endif %}
+          {% if section.settings.phone != blank %}
+          <li><a href="tel:{{ section.settings.phone }}"><img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/phone-icon.png?v=1664887914"><span>{{ section.settings.phone }}</span></a></li>
+           {% endif %}
+          {% if section.settings.email_1 != blank %}
+          <li><a href="mailto:{{ section.settings.email_1 }}"><img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/mail-icon2.png?v=1664887941"><span>{{ section.settings.email_1 }}</span></a></li>
+           {% endif %}
+          {% if section.settings.email_2 != blank %}
+          <li><a href="mailto:{{ section.settings.email_2 }}"><img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/email-icon.png?v=1664887963">{{ section.settings.email_2 }}</a></li>
+           {% endif %}
         </ul>
         <div class="contact-info-social-icons">
           <ul>
-            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            {% if settings.social_facebook_link != blank %}
+            <li><a href="{{ settings.social_facebook_link }}"><i class="fa-brands fa-facebook-f"></i></a></li>
+            {% endif %}
+            {% if settings.social_twitter_link != blank %}
+            <li><a href="{{ settings.social_twitter_link }}"><i class="fa-brands fa-instagram"></i></a></li>
+            {% endif %}
+            {% if settings.social_instagram_link != blank %}
+            <li><a href="{{ settings.social_instagram_link }}"><i class="fa-brands fa-twitter"></i></a></li>
+            {% endif %}   
           </ul>
         </div>
       </div>
       <div class="contact-form-col">
         <div class="contact-form-col-content">
-          <h3>We Want To Hear From You</h3>
+          <h3> {{ section.settings.heading_form }} </h3>
           <form>
             <div class="contact-form-row">
               <div class="input-container">
