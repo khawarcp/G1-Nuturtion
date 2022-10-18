@@ -1,3 +1,5 @@
+
+
 <section class="who-are-they-sec" style="background-image:url('https://cdn.shopify.com/s/files/1/0666/2904/2400/files/who-they-are-bg.png?v=1664432304')">
   <div class="page-width">
     <div class="who-are-they-content">
@@ -16,7 +18,39 @@
 {% schema %}
   {
     "name": "Who Are They",
-    "settings": [],
+    "settings": 
+    [
+        {
+          "type" : "text",
+          "id" : "heading",
+            "label" : "Heading" 
+        },
+        {
+          "type" : "textarea",
+          "id" : "info",
+            "label" : "Text" 
+        },
+        {
+          "type" : "text",
+          "id" : "button_text",
+            "label" : "Button Text" 
+        },
+        {
+          "type" : "url",
+          "id" : "button_link",
+            "label" : "Button Link" 
+        },
+        {
+          "type" : "text",
+          "id" : "number",
+            "label" : "Phone Number" 
+        },
+        {
+          "type" : "image_picker",
+          "id" : "background_image",
+            "label" : "Background Image" 
+        }
+    ],
     "presets":[
       {
       "name": "Who Are They",
