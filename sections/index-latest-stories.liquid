@@ -1,50 +1,20 @@
 <section class="latest-stories">
-  <h1>Latest Stories</h1>
+  <h1> {{ section.settings.heading }} </h1>
   <div class="latest-stories-slider owl-carousel">
+    {% assign articles = blogs[section.settings.blog].articles %}
+    {% for article in articles %}
     <div class="item">
       <div class="lastest-story-col">
-        <a href="#" class="latest-story-img">
-          <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/latest-story-img1.png?v=1664450226">
+        <a href="{{ article.url }}" class="latest-story-img">
+          <img src="{{ article.image | img_url: 'master' }}">
         </a>
         <div class="lastest-story-text">
-          <h4>Sfetas:How Erdogan instrumentalises the Ottomans</h4>
-          <a href="#">Read More <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/story-right-arrow.png?v=1664533310"></a>
+          <h4>{{ article.title }}</h4>
+          <a href="{{ article.url }}">Read More <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/story-right-arrow.png?v=1664533310"></a>
         </div>
       </div>
     </div>
-    <div class="item">
-      <div class="lastest-story-col">
-        <a href="#" class="latest-story-img">
-          <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/latest-story-img2.png?v=1664968532">
-        </a>
-        <div class="lastest-story-text">
-          <h4>Global energy transition: three trillion for economy and climate</h4>
-          <a href="#">Read More <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/story-right-arrow.png?v=1664533310"></a>
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="lastest-story-col">
-        <a href="#" class="latest-story-img">
-          <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/latest-story-img3.png?v=1664968553">
-        </a>
-        <div class="lastest-story-text">
-          <h4>The new residence of King Juan Carlos and its judicial consequences</h4>
-          <a href="#">Read More <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/story-right-arrow.png?v=1664533310"></a>
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="lastest-story-col">
-        <a href="#" class="latest-story-img">
-          <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/latest-story-img4.png?v=1664968566">
-        </a>
-        <div class="lastest-story-text">
-          <h4>Sfetas:How Erdogan instrumentalises the Ottomans</h4>
-          <a href="#">Read More <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/story-right-arrow.png?v=1664533310"></a>
-        </div>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </section>
 
