@@ -25,7 +25,24 @@
 {% schema %}
   {
     "name": "About Who Are They",
-    "settings": []
+    "settings":
+            [
+                {
+                   "type" : "text",
+                  "id" : "heading",
+                    "label" : "Heading"
+                },
+                {
+                   "type" : "textarea",
+                  "id" : "info",
+                    "label" : "Text"
+                },
+                {
+                   "type" : "image_picker",
+                  "id" : "image",
+                    "label" : "Image"
+                }
+            ]
   }
 {% endschema %}
 
