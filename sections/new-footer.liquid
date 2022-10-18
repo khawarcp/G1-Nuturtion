@@ -2,11 +2,11 @@
   <div class="page-width">
     <div class="footer-row">
       <div class="footer-logo">
-        <a href="{{ routes.root_url }}"><img loading="lazy" src="{{ section.settings.image_picker | img_url : "master" }}" alt="{{ shop.name }}"></a>
+        <a href="{{ routes.root_url }}"><img loading="lazy" src="{{ section.settings.logo | img_url : "master" }}" alt="{{ shop.name }}"></a>
       </div>
       <div class="footer-nav">
         <ul>
-          {% for link in linklist[section.settings.menu_1].links %}
+          {% for link in linklists[section.settings.menu_1].links %}
           <li class="{% if forloop.first %}active{% endif %}"><a href="{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
@@ -32,7 +32,7 @@
     <p>Copyright &copy; {{ 'now' | date: "%Y" }} {{ shop.name }} - All Rights Reserved.</p>
     <div class="footer-bottom-links">
       <ul>
-        {% for link in linklist[section.settings.menu_2].links %}
+        {% for link in linklists[section.settings.menu_2].links %}
         <li><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
       </ul>
