@@ -1,11 +1,5 @@
 {
   "sections": {
-    "banner": {
-      "type": "about-banner",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "1664867375aad5b3e9": {
       "type": "page-banner-section",
       "settings": {
@@ -118,7 +112,6 @@
     }
   },
   "order": [
-    "banner",
     "1664867375aad5b3e9",
     "briefhistory",
     "1664785228ff935b42",
