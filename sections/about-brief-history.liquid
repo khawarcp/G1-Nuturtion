@@ -1,36 +1,24 @@
 <section class="about-brief-history">
   <div class="page-width">
+    {% for block in section.blocks %}
     <div class="brief-history-row">
       <div class="brief-history-column">
         <div class="brief-history-text-col">
-        <h1>A BRIEF HISTORY AND DESCRIPTION OF KANNA</h1>
-        <p>The Khoisan people of South Africa, who use Kanna in folk medicine,
-          introduced the mood elevating plant Sceletium Tortuosum (Kanna) to the western world.
-          It became known to the early colonizers of the Cape in the 17th century. The first known written account of its use was in 1662 by Jan van Riebeeck.  </p>
+        {% if block.settings.heading != blank  %}
+        <h1> {{ block.settings.heading }} </h1>
+        {% endif %}
+        <p>{{ block.settings.info }}</p>
         </div>
       </div>
       <div class="brief-history-img-column">
         <div class="brief-history-img">
-          <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/brief-histoty-img.png?v=1664782836">
+          {% if block.settings.image != blank  %}
+          <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{block.settings.image.alt}}" loading="lazy">
+          {% endif %}
         </div>
       </div>
     </div>
-     <div class="brief-history-row">
-      <div class="brief-history-column">
-        <div class="brief-history-text-col">
-        <p>Sceletium tortuosum contains mesembrine & the related alkaloids mesembranol & mesembranone.
-          Mesembrine is known for its effects on the central nervous system.
-          The compounds may also act as serotonin-uptake inhibitors, & in specified doses possibly
-          act as anti-depressants, minor tranquilizers & anxiolytics used in the treatment of mild
-          to moderate depression.</p>
-        </div>
-      </div>
-      <div class="brief-history-img-column">
-        <div class="brief-history-img">
-          <img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/brief-history-group-img.png?v=1664783117">
-        </div>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </section>
 
@@ -45,6 +33,7 @@
         {
            "name" : "Text with Image",
            "type" : "text_with_image",
+            "limit" : 2,
             "settings":
             [
                 {
