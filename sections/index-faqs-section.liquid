@@ -90,7 +90,34 @@
 {% schema %}
   {
     "name": "Faqs Section",
-    "settings": [],
+    "settings": 
+    [
+        {
+          "type" : "text",
+          "id" : "heading",
+            "label" : "Heading"
+        }
+    ],
+    "blocks":
+    [
+        {
+          "name" : "Slide",
+          "type" : "Slide",
+            "settings":
+            [
+                {
+                  "type" : "text",
+                  "id" : "quiz",
+                    "label" : "Question"
+                },
+                {
+                  "type" : "textarea",
+                  "id" : "answer",
+                    "label" : "Answer"
+                }
+            ]
+        }
+    ],
     "presets":[
       {
        "name": "Faqs Section",
