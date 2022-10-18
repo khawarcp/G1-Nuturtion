@@ -1,9 +1,9 @@
 <section class="home-video-sec">
   <div class="page-width">    
     {% if section.settings.background_image != blank %}
-        <div class="home-video-bg" loading="lazy" style="background-image:url('{{ section.settings.background_image | img_url: 'master' }}">
+        <div class="home-video-bg" loading="lazy" style="background-image:url('{{ section.settings.background_image | img_url: "master" }}')">
     {% else %}
-    <div class="home-video-bg" loading="lazy" style="background-image:url('{{ 'collection-5' | placeholder_svg_tag }}')">
+    <div class="home-video-bg" loading="lazy" style="background-image:url('{{ "collection-5" | placeholder_svg_tag }}')">
     {% endif %}
       <a href="{{ section.settings.background_url }}"><span>Play</span></a>
     </div>
