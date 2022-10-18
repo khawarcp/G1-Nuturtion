@@ -1,86 +1,21 @@
 <section class="faqs-section">
   <div class="page-width">
-    <h1>FAQ’s</h1>
+    <h1> {{ section.settings.heading }} </h1>
     <div class="accordion_container">
+         {% for block in section.blocks %}
+         {% if block.settings.quiz != blank %}
         <div class="accordian-tabs faqs-accordian-tabs">
             <div class="accordion_head">
-                <h3>1.	Who are they? <span class="plusminus">+</span></h3>
+                <h3>{{ forloop.index }}. {{ block.settings.quiz }} <span class="plusminus">+</span></h3>
             </div>
             <div class="accordion_body" style="display: none;">
                 <p>
-                    Although it would be unrealistic to publish a standard answer to this question, it’s one
-                    every homeowner naturally wants
-                    to know, so we can publish some general guidelines to give you the best answer possible
-                    efore you call us. We will say up front that you will have an exact answer to that question
-                    when you get a proposal from
-                    us.
-
+                    {{  block.settings.answer }}
                 </p>
             </div>
         </div>
-        <div class="accordian-tabs faqs-accordian-tabs">
-            <div class="accordion_head">
-                <h3>2. What Needs are Waiting to be Fulfilled.<span class="plusminus">+</span>
-                </h3>
-            </div>
-            <div class="accordion_body" style="display: none;">
-                <p>
-                    Although it would be unrealistic to publish a standard answer to this question, it’s one
-                    every homeowner naturally wants
-                    to know, so we can publish some general guidelines to give you the best answer possible
-                    efore you call us. We will say up front that you will have an exact answer to that question
-                    when you get a proposal from
-                    us.
-                </p>
-            </div>
-        </div>
-        <div class="accordian-tabs faqs-accordian-tabs">
-            <div class="accordion_head">
-                <h3> 3.	Where do they buy their products?<span class="plusminus">+</span>
-                </h3>
-            </div>
-            <div class="accordion_body" style="display: none;">
-                <p>
-                    Although it would be unrealistic to publish a standard answer to this question, it’s one
-                    every homeowner naturally wants
-                    to know, so we can publish some general guidelines to give you the best answer possible
-                    efore you call us. We will say up front that you will have an exact answer to that question
-                    when you get a proposal from
-                    us.
-                </p>
-            </div>
-        </div>
-        <div class="accordian-tabs faqs-accordian-tabs">
-            <div class="accordion_head">
-                <h3> 4.	Where do they obtain information about their product?
-<span class="plusminus">+</span></h3>
-            </div>
-            <div class="accordion_body" style="display: none;">
-                <p>
-                    Although it would be unrealistic to publish a standard answer to this question, it’s one
-                    every homeowner naturally wants
-                    to know, so we can publish some general guidelines to give you the best answer possible
-                    efore you call us. We will say up front that you will have an exact answer to that question
-                    when you get a proposal from
-                    us.
-                </p>
-            </div>
-        </div>
-        <div class="accordian-tabs faqs-accordian-tabs">
-            <div class="accordion_head">
-                <h3> 5.	Will I be able to solve my customer’s problem?<span class="plusminus">+</span></h3>
-            </div>
-            <div class="accordion_body" style="display: none;">
-                <p>
-                    Although it would be unrealistic to publish a standard answer to this question, it’s one
-                    every homeowner naturally wants
-                    to know, so we can publish some general guidelines to give you the best answer possible
-                    efore you call us. We will say up front that you will have an exact answer to that question
-                    when you get a proposal from
-                    us.
-                </p>
-            </div>
-        </div>
+        {% endif %}
+        {% endfor %}
     </div>
   </div>
 </section>
