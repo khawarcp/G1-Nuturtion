@@ -224,6 +224,8 @@
     "1664450124eaac1cfd": {
       "type": "index-latest-stories",
       "settings": {
+        "heading": "Latest Stories",
+        "blog": "news"
       }
     },
     "1664455116c82e8727": {
