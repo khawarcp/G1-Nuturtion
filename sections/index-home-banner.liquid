@@ -9,7 +9,7 @@
           {% if section.settings.home_button_text != blank %}  
           <form action="/cart/add" method="post" class="">
             {% assign product = all_products[section.settings.product] %}
-            <input type="hidden" value="{{ product.id }}" name="id">
+            <input type="hidden" value="{{ product.variants.first.id }}" name="id">
              <input type="hidden" name="return_to" value="/checkout/" />
             <button type="submit" name="checkout" class="cus-site-btn"><span>{{ section.settings.home_button_text }}</span></button>
           </form>
