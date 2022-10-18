@@ -81,24 +81,30 @@
     "whoarethey": {
       "type": "about-who-are-they",
       "settings": {
+        "heading": "Who are they?",
+        "info": "Who are they?\nThey are late 20’s to 65 year old successful and active men and women, who are upper middle class, and live healthy & social lives. They shop at Whole Foods and Farmer’s Markets. They drink expensive wine from Napa or Bordeaux (when they do drink), or top-shelf tequila. They drive a Tesla, & they own their own house. These are well to do, well-educated active adults.",
+        "image": "shopify:\/\/shop_images\/about-who-are-they.png"
       }
     },
     "aboutwhatneeds": {
       "type": "about-what-needs",
       "settings": {
+        "heading": "What Needs are Waiting to be Fulfilled?",
+        "info": "“Xtreme” supplement marketing embarrasses them, that is not their identity. They do want to take supplements that boost their workouts & their game, but they want well-studied, proven, effective supplements, not ridiculous claims that clearly are false. And they want to make sure there is nothing that will hurt their health in the supplements they take, they only want “clean-label” supps that can make a real impact on their psyches or physique. These are people who know they are never going to become Professional athletes, but nonetheless continue to workout & play sports regularly.",
+        "image": "shopify:\/\/shop_images\/whats-need-img.png"
       }
     },
     "166479097897b37e23": {
       "type": "index-featured-product",
       "settings": {
-        "featured_product": ""
+        "featured_product": "nutritions-kannect"
       }
     },
     "166479144671b12e46": {
       "type": "index-latest-stories",
       "settings": {
-        "heading": "",
-        "blog": "",
+        "heading": "Latest Stories",
+        "blog": "news",
         "blog_length": 6
       }
     },
