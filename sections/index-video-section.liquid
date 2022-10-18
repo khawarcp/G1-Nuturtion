@@ -1,7 +1,11 @@
 <section class="home-video-sec">
-  <div class="page-width">
-    <div class="home-video-bg" style="background-image:url('https://cdn.shopify.com/s/files/1/0666/2904/2400/files/home-video-bg.png?v=1664443883')">
-      <a href="#"><span>Play</span></a>
+  <div class="page-width">    
+    {% if section.settings.background_image != blank %}
+        <div class="home-video-bg" loading="lazy" style="background-image:url('{{ section.settings.background_image | img_url: 'master' }}">
+    {% else %}
+    <div class="home-video-bg" loading="lazy" style="background-image:url('{{ 'collection-5' | placeholder_svg_tag }}')">
+    {% endif %}
+      <a href="{{ section.settings.background_url }}"><span>Play</span></a>
     </div>
   </div>
 </section>
@@ -11,7 +15,19 @@
 {% schema %}
   {
     "name": "Home Video",
-    "settings": [],
+    "settings": 
+    [
+        {
+          "type" : "image_picker",
+          "id" : "background_image",
+            "label" : "Background Image" 
+        },
+        {
+          "type" : "text",
+          "id" : "background_url",
+            "label" : "URL" 
+        }
+    ],
     "presets":[
       {
         "name": "Home Video",

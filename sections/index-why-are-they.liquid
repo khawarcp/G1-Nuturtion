@@ -1,8 +1,8 @@
 
 {% if section.settings.background_image != blank %}
-<section class="who-are-they-sec" style="background-image:url('{{ section.settings.background_image | img_url: 'master' }}')">
+<section class="who-are-they-sec" loading="lazy" style="background-image:url('{{ section.settings.background_image | img_url: 'master' }}')">
 {% else %}
-<section class="who-are-they-sec" style="background-image:url('{{ 'collection-5' | placeholder_svg_tag }}')">
+<section class="who-are-they-sec" loading="lazy" style="background-image:url('{{ 'collection-5' | placeholder_svg_tag }}')">
 {% endif %}
   <div class="page-width">
     <div class="who-are-they-content">
@@ -13,7 +13,7 @@
         <a href="{{ section.settings.button_link }}" class="who-readmore cus-site-btn"><span> {{ section.settings.button_text }}</span></a>
         {% endif %}
         {% if section.settings.number != blank %}
-        <a href="tel:{{ section.settings.number }}" class="who-phone"><img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/phone-svg.svg?v=1664956360"> {{ section.settings.number }}</a>
+        <a href="tel:{{ section.settings.number }}" class="who-phone"><img src="https://cdn.shopify.com/s/files/1/0666/2904/2400/files/phone-svg.svg?v=1664956360" alt="Phone Icon"> {{ section.settings.number }}</a>
         {% endif %}
       </div>
     </div>
