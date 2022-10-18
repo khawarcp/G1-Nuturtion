@@ -8,6 +8,12 @@
     "contactforminfo": {
       "type": "contact-info-section",
       "settings": {
+        "heading": "Find Us",
+        "address": "4517 Washington Ave. Manchester, Kentucky 39495",
+        "phone": "(239) 555-0108",
+        "email_1": "bill.sanders@example.com",
+        "email_2": "bill.sanders@example.com",
+        "heading_form": "We Want To Hear From You"
       }
     }
   },
