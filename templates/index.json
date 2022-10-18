@@ -173,7 +173,52 @@
     },
     "166444776615c2052a": {
       "type": "index-faqs-section",
+      "blocks": {
+        "fc69c894-79c8-464f-bd44-608eee2f69fb": {
+          "type": "Slide",
+          "settings": {
+            "quiz": "Who are they?",
+            "answer": "Although it would be unrealistic to publish a standard answer to this question, it’s one every homeowner naturally wants to know, so we can publish some general guidelines to give you the best answer possible efore you call us. We will say up front that you will have an exact answer to that question when you get a proposal from us."
+          }
+        },
+        "a1bf884e-f8aa-4289-86b7-f184be78ed62": {
+          "type": "Slide",
+          "settings": {
+            "quiz": "What Needs are Waiting to be Fulfilled.",
+            "answer": "Although it would be unrealistic to publish a standard answer to this question, it’s one every homeowner naturally wants to know, so we can publish some general guidelines to give you the best answer possible efore you call us. We will say up front that you will have an exact answer to that question when you get a proposal from us."
+          }
+        },
+        "3fa565b3-6644-45ff-80e9-c924b17ed716": {
+          "type": "Slide",
+          "settings": {
+            "quiz": "Where do they buy their products?",
+            "answer": "Although it would be unrealistic to publish a standard answer to this question, it’s one every homeowner naturally wants to know, so we can publish some general guidelines to give you the best answer possible efore you call us. We will say up front that you will have an exact answer to that question when you get a proposal from us."
+          }
+        },
+        "9f1f011b-aa59-445d-8572-c12ab3378dce": {
+          "type": "Slide",
+          "settings": {
+            "quiz": "Where do they obtain information about their product?",
+            "answer": "Although it would be unrealistic to publish a standard answer to this question, it’s one every homeowner naturally wants to know, so we can publish some general guidelines to give you the best answer possible efore you call us. We will say up front that you will have an exact answer to that question when you get a proposal from us."
+          }
+        },
+        "b8f8fac0-3df6-4007-aa56-764abad7e136": {
+          "type": "Slide",
+          "settings": {
+            "quiz": "Will I be able to solve my customer’s problem?",
+            "answer": "Although it would be unrealistic to publish a standard answer to this question, it’s one every homeowner naturally wants to know, so we can publish some general guidelines to give you the best answer possible efore you call us. We will say up front that you will have an exact answer to that question when you get a proposal from us."
+          }
+        }
+      },
+      "block_order": [
+        "fc69c894-79c8-464f-bd44-608eee2f69fb",
+        "a1bf884e-f8aa-4289-86b7-f184be78ed62",
+        "3fa565b3-6644-45ff-80e9-c924b17ed716",
+        "9f1f011b-aa59-445d-8572-c12ab3378dce",
+        "b8f8fac0-3df6-4007-aa56-764abad7e136"
+      ],
       "settings": {
+        "heading": "FAQ’s"
       }
     },
     "1664450124eaac1cfd": {
