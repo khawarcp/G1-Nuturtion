@@ -1,9 +1,16 @@
 <section class="product-detail-tabing">
   <div class="page-width">
     <div class="tab">
-      <button class="tablinks active" onclick="openCity(event, 'description')">Description</button>
-      <button class="tablinks" onclick="openCity(event, 'additionalinfo')">Additional Information</button>
-      <button class="tablinks" onclick="openCity(event, 'reviews')">Reviews</button>
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when "description" %}
+            <button class="tablinks active" onclick="openCity(event, 'description')">Description</button>
+         {% when "@app" %}
+            <button class="tablinks" onclick="openCity(event, 'additionalinfo')">Additional Information</button>
+         {% when "@app" %}
+            <button class="tablinks" onclick="openCity(event, 'reviews')">Reviews</button>
+      {% endcase %}
+      {% endfor %}
     </div>
      <div class="main-tabcontent">
         <div id="description" class="tabcontent" style="display:block;">
@@ -83,7 +90,7 @@ function openCity(evt, cityName) {
         },
         {
             "type" : "additional",
-            "name" : "additional",
+            "name" : "Additional Information",
             "settings":
             [
                 {
