@@ -334,7 +334,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
 
-  </head>
+  
+	{{ shop.metafields.loox["global_html_head"] }}
+</head>
 
   <body class="gradient {{ template | handelize }} {{ page.handle }}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -469,5 +471,7 @@
 
       });
     </script>
-  </body>
+  
+	{{ shop.metafields.loox["global_html_body"] }}
+</body>
 </html>
