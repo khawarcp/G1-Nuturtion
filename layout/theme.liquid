@@ -334,9 +334,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
 
-  
-	{{ shop.metafields.loox["global_html_head"] }}
-</head>
+  </head>
 
   <body class="gradient {{ template | handelize }} {{ page.handle }}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -350,7 +348,7 @@
     {% section 'announcement-bar' %}
     {% section 'header' %}
 
-    {% unless template contains 'index' or template contains 'collection' or template contains 'cart' or template contains 'about' or template contains 'features' or template contains 'contact-us' %}
+    {% unless template contains 'index' or template contains 'collection' or template contains 'collections' or template contains 'cart' or template contains 'about' or template contains 'features' or template contains 'contact-us' %}
       <div class="empty-div"></div>
     {% endunless %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
@@ -471,7 +469,5 @@
 
       });
     </script>
-  
-	{{ shop.metafields.loox["global_html_body"] }}
-</body>
+  </body>
 </html>
