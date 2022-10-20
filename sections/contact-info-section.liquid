@@ -57,7 +57,7 @@
                 <input autocomplete="last_name" type="text" id="ContactForm-last_name" name="contact[last_name]" value="{% if form.first_name %}{{ form.first_name }}{% endif %}" placeholder="Last Name">
               </div>
               <div class="input-container">
-                <input type="tel" placeholder="Phone">
+                <input type="tel" id="ContactForm-phone" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
               </div>
               <div class="input-container">                
                 <input
