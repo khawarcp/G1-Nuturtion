@@ -20,6 +20,11 @@
           "settings": {
           }
         },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+          }
+        },
         "cb01f348-52bb-4471-9f7a-b46f1e66f06c": {
           "type": "short_description",
           "settings": {
@@ -41,11 +46,6 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
-          }
-        },
-        "loox-rating": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
           }
         }
       },
@@ -85,11 +85,21 @@
             "ingredient_name": "",
             "ingredient_quan": ""
           }
+        },
+        "3ff4c52d-95c0-464f-ae45-07a50b72dfea": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
         }
       },
       "block_order": [
         "2e8a3ca3-7399-4777-888b-827b2da10fae",
-        "8250dde5-22b0-43b2-a513-dd1a9bcdbb8c"
+        "8250dde5-22b0-43b2-a513-dd1a9bcdbb8c",
+        "3ff4c52d-95c0-464f-ae45-07a50b72dfea"
       ],
       "settings": {
       }
