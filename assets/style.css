@@ -2156,6 +2156,24 @@ button.cus-site-btn::before {
     border-radius: 25px;
     z-index: -1;
 }
+.readmore-add-to-cart {
+    display: flex;
+    align-items: center;
+}
+
+.home-featured-price h3 {
+    display: flex;
+    align-items: center;
+}
+
+.home-featured-price h3 span {
+    font-size: 25px;
+    /* margin-left: 10px; */
+}
+
+.price.price--show-badge {
+    margin-left: 10px;
+}
 /* Responsive design */
 @media screen and (max-width:1199px){
   .home-video-sec {
