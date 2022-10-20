@@ -359,7 +359,7 @@
             {%- when 'short_description' -%}
               {%- if block.settings.short_info != blank -%}
                 <div class="product__description">
-                  {{ product.short_info }}
+                  {{ block.settings.short_info }}
                 </div>
               {%- endif -%}
             {%- when 'custom_liquid' -%}
