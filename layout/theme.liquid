@@ -348,9 +348,13 @@
     {% section 'announcement-bar' %}
     {% section 'header' %}
 
-    {% unless template contains 'index' or template contains 'collection' or template contains 'collections' or template contains 'cart' or template contains 'about' or template contains 'features' or template contains 'contact-us' %}
+    {% unless template contains 'index' or template contains 'collection' or template contains 'cart' or template contains 'about' or template contains 'features' or template contains 'contact-us' %}
       <div class="empty-div"></div>
     {% endunless %}
+
+    {% if template contains 'collections' %}
+      <div class="empty-div"></div>
+    {% endif %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
