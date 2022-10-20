@@ -1709,41 +1709,49 @@ ul.contact-info-list {
 .contact-info-col h2 {
     font-family: 'visby-medium';
 }
+.collection details-modal.header__search .header__icon,
 .contact-us details-modal.header__search .header__icon,
 .about-us details-modal.header__search .header__icon,
 .features details-modal.header__search .header__icon {
     background-color: #fff;
 }
+.collection details-modal.header__search .header__icon svg,
 .contact-us details-modal.header__search .header__icon svg,
 .about-us details-modal.header__search .header__icon svg,
 .features details-modal.header__search .header__icon svg {
     color: #007a68;
 }
+.collection .user-cart-icons,
 .contact-us .user-cart-icons,
 .about-us .user-cart-icons,
 .features .user-cart-icons {
     background-color: #fff;
 }
+.collection .user-cart-icons a svg path,
 .contact-us .user-cart-icons a svg path,
 .about-us .user-cart-icons a svg path,
 .features .user-cart-icons a svg path {
     fill: #007a68;
 }
+.collection .header__menu-item span:before,
 .features .header__menu-item span:before,
 .contact-us .header__menu-item span:before,
 .about-us .header__menu-item span:before {
     background-color: #fff;
 }
+.collection .header__heading-link img,
 .contact-us .header__heading-link img,
 .features .header__heading-link img,
 .about-us .header__heading-link img {
     filter: brightness(0) invert(1);
 }
+.collection nav.header__inline-menu ul li a span,
 .contact-us nav.header__inline-menu ul li a span,
 .features nav.header__inline-menu ul li a span,
 .about-us nav.header__inline-menu ul li a span {
     color: rgb(255 255 255 / 60%);
 }
+.collection nav.header__inline-menu ul li a span.header__active-menu-item,
 .contact-us nav.header__inline-menu ul li a span.header__active-menu-item,
 .features nav.header__inline-menu ul li a span.header__active-menu-item,
 .about-us nav.header__inline-menu ul li a span.header__active-menu-item {
