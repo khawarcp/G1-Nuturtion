@@ -70,7 +70,18 @@ function openCity(evt, cityName) {
 {% schema %}
   {
     "name": "Product Tabbing",
-    "settings": []
+    "settings": [],
+    "blocks":
+    [
+        {
+            "type" : "@app"           
+        },
+        {
+          "type" : "description",
+            "name" : "description",
+            "limit" : 1
+        }
+    ]
   }
 {% endschema %}
 
