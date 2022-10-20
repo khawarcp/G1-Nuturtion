@@ -356,6 +356,12 @@
                   {{ product.description }}
                 </div>
               {%- endif -%}
+            {%- when 'short_description' -%}
+              {%- if block.settings.short_info != blank -%}
+                <div class="product__description rte quick-add-hidden">
+                  {{ product.short_info }}
+                </div>
+              {%- endif -%}
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
             {%- when 'collapsible_tab' -%}
