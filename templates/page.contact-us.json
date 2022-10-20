@@ -15,10 +15,38 @@
         "email_2": "bill.sanders@example.com",
         "heading_form": "We Want To Hear From You"
       }
+    },
+    "798bd0fb-88f1-406c-85ae-37607063389a": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16666192019680__798bd0fb-88f1-406c-85ae-37607063389a-1666268538069dac06-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Mailing List To Keep Up To Date.",
+            "heading_size": "h1"
+          }
+        },
+        "template--16666192019680__798bd0fb-88f1-406c-85ae-37607063389a-1666268538069dac06-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16666192019680__798bd0fb-88f1-406c-85ae-37607063389a-1666268538069dac06-0",
+        "template--16666192019680__798bd0fb-88f1-406c-85ae-37607063389a-1666268538069dac06-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "16648695065140cc79",
-    "contactforminfo"
+    "contactforminfo",
+    "798bd0fb-88f1-406c-85ae-37607063389a"
   ]
 }
