@@ -64,7 +64,6 @@
                     autocomplete="email"
                     type="email"
                     id="ContactForm-email"
-                    class="field__input"
                     name="contact[email]"
                     spellcheck="false"
                     autocapitalize="off"
@@ -75,8 +74,7 @@
                       aria-describedby="ContactForm-email-error"
                     {% endif %}
                     placeholder="{{ 'templates.contact.form.email' | t }}"
-                  >
-                  <label class="field__label" for="ContactForm-email">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
+                  >                  
                   {%- if form.errors contains 'email' -%}
                     <small class="contact__field-error" id="ContactForm-email-error">
                       <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
