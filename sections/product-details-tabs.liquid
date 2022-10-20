@@ -22,26 +22,7 @@
              {% when "additional" %}
                 <div id="additionalinfo" class="tabcontent">
               <div class="additional-tables">
-                <table>
-                  <tr>
-                    <td>Ingredients</td>
-                    <td>Ingredients</td>
-                   <td>Ingredients</td>
-                   <td>Ingredients</td>
-                  </tr>
-                  <tr>
-                    <td>Ingredients</td>
-                    <td>Ingredients</td>
-                    <td>Ingredients</td>
-                    <td>Ingredients</td>
-                  </tr>
-                  <tr>
-                    <td>Ingredients</td>
-                    <td>Ingredients</td>
-                    <td>Ingredients</td>
-                    <td>Ingredients</td>
-                  </tr>
-                </table>
+                {{ block.settings.ingredient_name }}
               </div>
             </div>
              {% when "@app" %}
