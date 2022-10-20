@@ -2125,6 +2125,37 @@ a.who-readmore.cus-site-btn span {
 a.who-readmore.cus-site-btn:hover span {
     color: #176c7b;
 }
+button.cus-site-btn {
+    color: #176c7b;
+    text-decoration: none;
+    font-weight: 500;
+    border: 1px solid #176C7B;
+    min-width: 120px;
+    text-align: center;
+    display: inline-block;
+    padding: 13px 30px;
+    border-radius: 25px;
+    position: relative;
+    background-color: #e3f9ef;
+    cursor: pointer;
+}
+
+button.cus-site-btn span {
+    font-size: 16px;
+}
+
+button.cus-site-btn::before {
+    content: '';
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #176c7b;
+    left: 0px;
+    border-radius: 25px;
+    z-index: -1;
+}
 /* Responsive design */
 @media screen and (max-width:1199px){
   .home-video-sec {
