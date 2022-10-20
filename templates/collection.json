@@ -1,7 +1,13 @@
 {
   "sections": {
+    "928464dc-8a3b-4d3e-866f-03606e453f3e": {
+      "type": "page-banner-section",
+      "settings": {
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -28,6 +34,7 @@
     }
   },
   "order": [
+    "928464dc-8a3b-4d3e-866f-03606e453f3e",
     "banner",
     "product-grid"
   ]
