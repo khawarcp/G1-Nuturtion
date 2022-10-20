@@ -80,7 +80,24 @@ function openCity(evt, cityName) {
           "type" : "description",
             "name" : "description",
             "limit" : 1
-        }
+        },
+        {
+            "type" : "additional",
+            "name" : "additional",
+            "settings":
+            [
+                {
+                  "type" : "text",
+                  "id" : "ingredient_name",
+                  "label" : "Ingredient Name"
+                },
+                {
+                  "type" : "text",
+                  "id" : "ingredient_quan",
+                  "label" : "Ingredient Quantity"
+                }
+            ]
+        } 
     ]
   }
 {% endschema %}
