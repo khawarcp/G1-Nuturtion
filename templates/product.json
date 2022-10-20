@@ -82,7 +82,7 @@
         "8250dde5-22b0-43b2-a513-dd1a9bcdbb8c": {
           "type": "additional",
           "settings": {
-            "ingredient_name": "<table>\n                  <tr>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                   <td>Ingredients<\/td>\n                   <td>Ingredients<\/td>\n                  <\/tr>\n                  <tr>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                  <\/tr>\n                  <tr>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                  <\/tr>\n                <\/table>"
+            "ingredient_name": "<table>\n                  <tbody>\n<tr>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                   <td>Ingredients<\/td>\n                   <td>Ingredients<\/td>\n                  <\/tr>\n                  <tr>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                  <\/tr>\n                  <tr>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                    <td>Ingredients<\/td>\n                  <\/tr>\n                <\/tbody>\n<\/table>"
           }
         },
         "3ff4c52d-95c0-464f-ae45-07a50b72dfea": {
@@ -139,12 +139,40 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "b9f61ede-2389-4555-8e69-5f9432de8cda": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16666191724768__b9f61ede-2389-4555-8e69-5f9432de8cda-166625820399ae0f64-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Mailing List To Keep Up To Date.",
+            "heading_size": "h1"
+          }
+        },
+        "template--16666191724768__b9f61ede-2389-4555-8e69-5f9432de8cda-166625820399ae0f64-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16666191724768__b9f61ede-2389-4555-8e69-5f9432de8cda-166625820399ae0f64-0",
+        "template--16666191724768__b9f61ede-2389-4555-8e69-5f9432de8cda-166625820399ae0f64-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "product-tabs",
     "product-recommendations",
-    "loox-product-reviews-app-section"
+    "loox-product-reviews-app-section",
+    "b9f61ede-2389-4555-8e69-5f9432de8cda"
   ]
 }
