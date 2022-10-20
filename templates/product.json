@@ -67,6 +67,24 @@
     },
     "product-tabs": {
       "type": "product-details-tabs",
+      "blocks": {
+        "2e8a3ca3-7399-4777-888b-827b2da10fae": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "8250dde5-22b0-43b2-a513-dd1a9bcdbb8c": {
+          "type": "additional",
+          "settings": {
+            "ingredient_name": "",
+            "ingredient_quan": ""
+          }
+        }
+      },
+      "block_order": [
+        "2e8a3ca3-7399-4777-888b-827b2da10fae",
+        "8250dde5-22b0-43b2-a513-dd1a9bcdbb8c"
+      ],
       "settings": {
       }
     },
