@@ -13,44 +13,43 @@
       {% endfor %}
     </div>
      <div class="main-tabcontent">
-        <div id="description" class="tabcontent" style="display:block;">
-          <p>The Khoisan people of South Africa, who use Kanna in folk medicine,
-            introduced the mood elevating plant Sceletium Tortuosum (Kanna) to the western world.
-            It became known to the early colonizers of the Cape in the 17th century.
-            The first known written account of its use was in 1662 by Jan van Riebeeck.
-            Traditional African Medicinal Plants (TAMP) are now quickly gaining interest
-            by Western health-seekers, but still remain largely unknown to most people who
-            do not live on the African continent.  </p>
-          <p>Sceletium is a small genus of low growing succulent shrubs in the ice plant family
-            (Aizoaceae) endemic to the karroo areas of Western,
-            Eastern and Northern Cape Provinces in South Africa. </p>
-        </div>
-        <div id="additionalinfo" class="tabcontent">
-          <div class="additional-tables">
-            <table>
-              <tr>
-                <td>Ingredients</td>
-                <td>Ingredients</td>
-               <td>Ingredients</td>
-               <td>Ingredients</td>
-              </tr>
-              <tr>
-                <td>Ingredients</td>
-                <td>Ingredients</td>
-                <td>Ingredients</td>
-                <td>Ingredients</td>
-              </tr>
-              <tr>
-                <td>Ingredients</td>
-                <td>Ingredients</td>
-                <td>Ingredients</td>
-                <td>Ingredients</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <div id="reviews" class="tabcontent">
-        </div>
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when "description" %}
+                <div id="description" class="tabcontent" style="display:block;">
+              {{ product.description }}
+            </div>
+             {% when "additional" %}
+                <div id="additionalinfo" class="tabcontent">
+              <div class="additional-tables">
+                <table>
+                  <tr>
+                    <td>Ingredients</td>
+                    <td>Ingredients</td>
+                   <td>Ingredients</td>
+                   <td>Ingredients</td>
+                  </tr>
+                  <tr>
+                    <td>Ingredients</td>
+                    <td>Ingredients</td>
+                    <td>Ingredients</td>
+                    <td>Ingredients</td>
+                  </tr>
+                  <tr>
+                    <td>Ingredients</td>
+                    <td>Ingredients</td>
+                    <td>Ingredients</td>
+                    <td>Ingredients</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+             {% when "@app" %}
+                <div id="reviews" class="tabcontent">
+                  {% render block %}
+                </div>
+          {% endcase %}
+        {% endfor %}
      </div>
   </div>
 </section>
