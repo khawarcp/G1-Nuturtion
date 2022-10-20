@@ -2182,7 +2182,11 @@ button.cus-site-btn::before {
 .price.price--show-badge {
     margin-left: 10px;
 }
+.button, .shopify-challenge__button, .customer button {
+    padding: 12px 25px;
+}
 /* Responsive design */
+
 @media screen and (max-width:1199px){
   .home-video-sec {
     padding-bottom: 240px;
