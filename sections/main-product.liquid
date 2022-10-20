@@ -385,6 +385,14 @@
             {%- when 'quantity_selector' -%}
               <div class="availbility-quantity_wrapper">
                 <div class="avail-wrap">
+                  <h4>Availibility :</h4> 
+                  
+                    {% assign current_var = product.selected_or_first_available_variant %}
+                      {% if current_var.inventory_quantity > 0 %}
+                       <span>  In Stock  </span>
+                      {% else %}
+                        <span>  Out of Stock  </span>
+                        {% endif %}
                 </div>
                     <div
                     class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %} quant-wrap"
