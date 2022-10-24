@@ -411,6 +411,11 @@
     <script>
       $(document).ready(function() {
 
+     $('.filter-selector').click(function (e) {
+        $('#FacetsWrapperDesktop details').attr('open','');
+        $('#main-collection-filters').slideToggle();
+      })
+        
 // Initialize Swiper
         const swiper = new Swiper(".swiper", {
           slidesPerView: 'auto',
