@@ -2264,7 +2264,7 @@ quantity-input.quantity input {
 }
 .product__media-toggle:after {
     background-color: #E3F9EF;
-    z-index: 0;
+    z-index: 0 !important;
 }
 /* Responsive design */
 
