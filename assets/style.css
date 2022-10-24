@@ -2185,6 +2185,83 @@ button.cus-site-btn::before {
 .button, .shopify-challenge__button, .customer button {
     padding: 12px 25px;
 }
+.media>*:not(.zoom):not(.deferred-media__poster-button), .media model-viewer {
+    z-index: 2;
+}
+
+.product__media-toggle:after {
+    z-index: 0;
+    border-radius: 20px;
+}
+
+
+.global-media-settings {
+    border: 0px;
+}
+
+.product .price .price-item {
+    color: #007A68;
+    font-family: 'okana';
+    font-size: 24px;
+}
+
+span.visually-hidden.visually-hidden--inline {
+    /* color: #C8C8C8 !important; */
+}
+
+.price--on-sale .price-item--regular {
+    color: #C8C8C8 !important;
+    font-size: 18px !important;
+}
+
+.avail-wrap {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.avail-wrap h4 {
+    margin-bottom: 0px;
+}
+
+.avail-wrap span {
+    margin-left: 15px;
+}
+
+.availbility-quantity_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-form__input.product-form__quantity.quant-wrap {
+    flex: 0 0 40%;
+}
+
+.product-form__input.product-form__quantity.quant-wrap label {
+    display: none;
+}
+
+quantity-input.quantity {
+    border: 1px solid #176c7b;
+    border-radius: 25px;
+}
+
+quantity-input.quantity::before,quantity-input.quantity::after {
+    display: none;
+}
+
+.quantity__button svg path {
+    color: #176C7B;
+}
+
+.quantity__button svg {
+    width: 15px;
+}
+
+quantity-input.quantity input {
+    color: #176c7b;
+    font-family: 'visby-medium';
+}
 /* Responsive design */
 
 @media screen and (max-width:1199px){
