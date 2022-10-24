@@ -2246,7 +2246,7 @@ quantity-input.quantity {
     border-radius: 25px;
 }
 
-quantity-input.quantity::before,quantity-input.quantity::after {
+.product__info-container quantity-input.quantity::before,.product__info-container quantity-input.quantity::after {
     display: none;
 }
 
