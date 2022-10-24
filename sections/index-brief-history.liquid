@@ -23,7 +23,7 @@
         {% endif %}
       </div>
       <div class="brief-history-text">
-        <p>{{ section.settings.brief_content }}</p>
+        {{ section.settings.brief_content }}
         {% if section.settings.brief_button_text != blank %}          
         <a href="{{ section.settings.brief_button_link }}" class="cus-site-btn"><span>{{ section.settings.brief_button_text }}</span></a>
         {% endif %}
