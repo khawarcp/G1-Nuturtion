@@ -2262,6 +2262,10 @@ quantity-input.quantity input {
     color: #176c7b;
     font-family: 'visby-medium';
 }
+.product__media-toggle:after {
+    background-color: #E3F9EF;
+    z-index: 0;
+}
 /* Responsive design */
 
 @media screen and (max-width:1199px){
