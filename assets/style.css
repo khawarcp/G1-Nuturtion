@@ -2330,6 +2330,97 @@ ul.breadcrumbs__list li:last-child a::before {
 .cart-count-bubble {
     top: 5px;
 }
+.input-wrap {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+form#contact_form {
+    max-width: 100%;
+}
+
+.custom-newletter {
+    width: 100%;
+}
+
+.input-email input {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #FFFFFF;
+    width: 100%;
+    display: block;
+    color: #FFFFFF;
+    font-family: 'okana';
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    outline: 0px;
+    box-shadow: none;
+}
+
+.input-email {
+    width: 70%;
+}
+
+.input-email input::placeholder {
+    color: #fff;
+    font-weight: 600;
+}
+
+.input-email input {}
+
+.input-wrap button {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    border: 1px solid #fff;
+    min-width: 120px;
+    text-align: center;
+    display: inline-block;
+    padding: 13px 30px;
+    border-radius: 25px;
+    position: relative;
+    background-color: #007A68;
+    cursor: pointer;
+}
+
+.input-email {}
+
+.input-wrap button::before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #FFFFFF;
+    left: 0px;
+    border-radius: 25px;
+    z-index: -1;
+    width: 50px;
+    margin-left: auto;
+    transition: .3s all ease;
+}
+
+.input-wrap button:hover::before {
+    width: 100%;
+    z-index: 1;
+    right: 0;
+}
+
+.input-wrap button:hover span {
+    color: #007a68;
+}
+
+.input-wrap button span {
+    position: relative;
+    z-index: 23;
+}
+
+.input-wrap:hover button {
+    border: 1px solid transparent;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
