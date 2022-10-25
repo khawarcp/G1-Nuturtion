@@ -3288,7 +3288,17 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
 section.product-detail-tabing {
     padding: 60px 0px 0px;
 }
-  
+ table:not([class]) td, table:not([class]) th {
+    padding: 15px;
+}
+
+.additional-tables table:before {
+    opacity: 0;
+}
+
+table:not([class]) td, table:not([class]) th {
+    font-size: 10px;
+} 
 }
 @media only screen and (max-width: 425px) {
   .container {
