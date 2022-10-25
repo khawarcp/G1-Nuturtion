@@ -2324,6 +2324,9 @@ ul.breadcrumbs__list li:last-child a::before {
     font-weight: 700;
     font-size: 18px;
 }
+.swiper-content p {
+    font-family: 'visby-medium';
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
@@ -2350,6 +2353,7 @@ ul.breadcrumbs__list li:last-child a::before {
     background-size: 75%;
     min-height: 100vh;
 }
+  
 }
 @media screen and (max-width:1199px){
   .home-video-sec {
