@@ -2344,7 +2344,11 @@ ul.breadcrumbs__list li:last-child a::before {
     display: flex;
     align-items: center;
 } 
-.home-video-sec {min-height: 126vh;}  
+.home-video-sec {min-height: 126vh;} 
+  .home-video-sec {
+    background-position: top center;
+    background-size: 75%;
+}
 }
 @media screen and (max-width:1199px){
   .home-video-sec {
