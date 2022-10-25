@@ -136,12 +136,16 @@
         </a>
       {%- endif -%}
 
+      {% comment %}        
       <button>
         {{ 'customer.login_page.sign_in' | t }}
       </button>
+      {% endcomment %}
 
      
-        <button class="cus-site-btn"><span>   {{ 'customer.login_page.sign_in' | t }} </span> </button>
+        <button class="cus-site-btn">
+          <span>   {{ 'customer.login_page.sign_in' | t }} </span>
+        </button>
       
 
       <a href="{{ routes.account_register_url }}">
