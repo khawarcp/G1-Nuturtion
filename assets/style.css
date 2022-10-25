@@ -2495,6 +2495,28 @@ section.home-featured-product {
 span.product__media-icon.motion-reduce.quick-add-hidden {
     display: none;
 }
+.main-product-section {
+    position: relative;
+}
+
+.main-product-section::before {
+    content: '';
+    position: absolute;
+    background-image: url('https://cdn.shopify.com/s/files/1/0666/2904/2400/files/product-detail-before.png?v=1666700746');
+    right: 0px;
+    top: 0px;
+    width: 600px;
+    /* height: 100%; */
+    background-position: bottom right;
+    bottom: -113px;
+    background-size: 36%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+button.product-form__submit.button.button--full-width.button--secondary {
+    border: 2px solid #176C7B;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
