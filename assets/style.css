@@ -2333,6 +2333,9 @@ ul.breadcrumbs__list li:last-child a::before {
 .home-featured-product:after {
     width: 35%;
 }
+.nutrition-slider-sec:before {
+    width: 36%;
+}  
 }
 @media screen and (max-width:1199px){
   .home-video-sec {
