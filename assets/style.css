@@ -2312,6 +2312,14 @@ ul.breadcrumbs__list li:last-child a::before {
 .nutrition-slider-sec .owl-nav .owl-next:before {
     transition: 0.2s all;
 }
+.nutrition-slider-sec .owl-nav .owl-prev:before {
+    font-size: 18px;
+    color: #176c7b;
+}
+
+.nutrition-slider-sec .owl-nav .owl-next.disabled:before {
+    top: 7px;
+}
 @media screen and (max-width:1199px){
   .home-video-sec {
     padding-bottom: 240px;
