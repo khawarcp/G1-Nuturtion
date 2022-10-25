@@ -2327,6 +2327,9 @@ ul.breadcrumbs__list li:last-child a::before {
 .swiper-content p {
     font-family: 'visby-medium';
 }
+.cart-count-bubble {
+    top: 5px;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
