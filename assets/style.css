@@ -2480,6 +2480,18 @@ section.home-featured-product {
     background-color: #176C7B;
     z-index: 0;
 }
+.product__media-list li:not(:first-child) .global-media-settings {
+    padding: 20px !important;
+    height: 220px;
+}
+
+.global-media-settings img {
+    object-fit: contain;
+}
+
+.product__media-list li:not(:first-child) .global-media-settings img {
+    padding: 20px;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
