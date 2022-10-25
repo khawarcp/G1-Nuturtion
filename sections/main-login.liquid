@@ -161,8 +161,13 @@
       <h2>{{ 'customer.login_page.guest_title' | t }}</h2>
 
       {%- form 'guest_login' -%}
+        {% comment %}
         <button>
           {{ 'customer.login_page.guest_continue' | t }}
+        </button>
+        {% endcomment %}
+        <button class="cus-site-btn">
+          <span>  {{ 'customer.login_page.guest_continue' | t }} </span>
         </button>
       {%- endform -%}
     </div>

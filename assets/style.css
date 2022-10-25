@@ -2438,6 +2438,13 @@ form#contact_form {
     top: -100px;
       opacity: 1;
 }
+section.home-featured-product {
+    border-top: 1px solid #66DAA6;
+}
+
+.what-needs-are {
+    padding-bottom: 80px;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
