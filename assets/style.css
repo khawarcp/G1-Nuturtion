@@ -2517,6 +2517,120 @@ span.product__media-icon.motion-reduce.quick-add-hidden {
 button.product-form__submit.button.button--full-width.button--secondary {
     border: 2px solid #176C7B;
 }
+.product-form__buttons {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+button.product-form__submit.button.button--full-width.button--secondary {
+    width: 45%;
+    border-radius: 25px;
+    border-width: 1px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.shopify-payment-button {
+    width: 45%;
+}
+
+button.product-form__submit.button.button--full-width.button--secondary span {
+    color: #176C7B;
+    font-weight: 700;
+}
+
+button.product-form__submit.button.button--full-width.button--secondary::before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #176c7b;
+    left: 0px;
+    border-radius: 25px;
+    z-index: -1;
+    /* transition: 0.2s all; */
+    width: 50px;
+    margin-left: auto;
+    transition: .3s all ease;
+}
+
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
+    border-radius: 25px;
+    border-width: 1px;
+    position: relative;
+    background-color: #fff;
+    color: #176C7B;
+    border: 1px solid #176C7B;
+    font-weight: 700;
+    padding: 12px 0px;
+    font-size: 0px;
+    height: 44px;
+}
+
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded::before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #176c7b;
+    left: 0px;
+    border-radius: 25px;
+    z-index: -1;
+    width: 50px;
+    margin-left: auto;
+    transition: .3s all ease;
+}
+
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded:hover {
+    /* background-color: transparent !important; */
+}
+
+button.product-form__submit.button.button--full-width.button--secondary:hover::before {
+    width: 100%;
+    z-index: 0;
+    right: 0px;
+}
+
+button.product-form__submit.button.button--full-width.button--secondary:hover {
+    border: 1px solid transparent;
+}
+
+button.product-form__submit.button.button--full-width.button--secondary:hover span {
+    color: #fff;
+    position: relative;
+}
+
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded:hover::before {
+    z-index: 0;
+    width: 100%;
+    right: 0px;
+}
+
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded:hover {
+    color: #fff !important;
+}
+
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded::after {
+    content: 'Buy it now';
+    width: 100%;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    font-size: 1.5rem;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded:hover {
+    background-color: #ffff;
+    border: 1px solid transparent;
+}
+
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
