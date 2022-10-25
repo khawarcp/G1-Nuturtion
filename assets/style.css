@@ -2461,6 +2461,25 @@ section.home-featured-product {
     z-index: -1;
     background-repeat: no-repeat;
 }
+.custom-input-submit {
+    text-align: right;
+}
+
+.custom-input-submit button.cus-site-btn {
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.custom-input-submit button.cus-site-btn:hover span {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.custom-input-submit button.cus-site-btn:hover::before {
+    background-color: #176C7B;
+    z-index: 0;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
