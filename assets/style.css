@@ -3272,7 +3272,22 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
 .product__media-list li:not(:first-child) .global-media-settings img {
     padding: 0px;
 }
+.main-product-section:before {
+    display: none;
+}
 
+.avail-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.avail-wrap span {
+    margin-left: 0;
+}
+
+section.product-detail-tabing {
+    padding: 60px 0px 0px;
+}
   
 }
 @media only screen and (max-width: 425px) {
