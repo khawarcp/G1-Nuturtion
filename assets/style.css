@@ -2335,6 +2335,9 @@ ul.breadcrumbs__list li:last-child a::before {
 }
 .nutrition-slider-sec:before {
     width: 36%;
+}
+.home-banner-row {
+    justify-content: space-between;
 }  
 }
 @media screen and (max-width:1199px){
