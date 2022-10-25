@@ -2294,7 +2294,24 @@ ul.breadcrumbs__list li:last-child a::before {
     display: none;
 }
 /* Responsive design */
+.nutrition-slider-sec .owl-nav .owl-prev.disabled:before {
+    color: #0000008a;
+    font-size: 15px;
+}
 
+.nutrition-slider-sec .owl-nav .owl-next.disabled:before {
+    font-size: 15px;
+    color: #0000008a;
+    top: 6px;
+}
+
+.nutrition-slider-sec .owl-nav .owl-prev:before {
+    transition: 0.2s all;
+}
+
+.nutrition-slider-sec .owl-nav .owl-next:before {
+    transition: 0.2s all;
+}
 @media screen and (max-width:1199px){
   .home-video-sec {
     padding-bottom: 240px;
