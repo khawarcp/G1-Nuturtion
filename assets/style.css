@@ -2348,6 +2348,7 @@ ul.breadcrumbs__list li:last-child a::before {
   .home-video-sec {
     background-position: top center;
     background-size: 75%;
+    min-height: 100vh;
 }
 }
 @media screen and (max-width:1199px){
