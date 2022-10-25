@@ -2436,6 +2436,7 @@ form#contact_form {
 
 .what-needs-are:before {
     top: -100px;
+      opacity: 1;
 }
 @media screen and (min-width:1920px){
   .home-featured-product:before {
