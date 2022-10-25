@@ -3309,7 +3309,15 @@ table:not([class]) td, table:not([class]) th {
 
 .input-email input {
     /* margin-right: 38px !important; */
-}  
+}
+.features-content-main-row::before {
+    display: none;
+}
+
+.features-content-main-row:nth-child(2):after {
+    display: none;
+}
+  
 }
 @media only screen and (max-width: 425px) {
   .container {
