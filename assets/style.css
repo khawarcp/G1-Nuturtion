@@ -3317,7 +3317,9 @@ table:not([class]) td, table:not([class]) th {
 .features-content-main-row:nth-child(2):after {
     display: none;
 }
-  
+.collection .header__heading-link img, .contact-us .header__heading-link img, .features .header__heading-link img, .about-us .header__heading-link img {
+    filter: none;
+}  
 }
 @media only screen and (max-width: 425px) {
   .container {
