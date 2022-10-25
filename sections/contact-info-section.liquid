@@ -93,7 +93,12 @@
               </div>
             </div>
             <div class="input-submit">
+              {% comment %}
               <input type="submit" value="{{ 'templates.contact.form.send' | t }}">
+              {% endcomment %}
+             <button class="cus-site-btn">
+                <span> {{ 'templates.contact.form.send' | t }} </span>
+              </button>
             </div>
           {%- endform -%}
         </div>
