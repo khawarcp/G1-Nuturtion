@@ -2428,6 +2428,15 @@ form#contact_form {
 .quantity:after {
     content: none;
 }
+.what-needs-are:after {
+    bottom: auto;
+    top: 170px;
+    height: 320px;
+}
+
+.what-needs-are:before {
+    top: -100px;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
