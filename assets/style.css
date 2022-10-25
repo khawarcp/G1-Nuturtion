@@ -2445,6 +2445,9 @@ section.home-featured-product {
 .what-needs-are {
     padding-bottom: 80px;
 }
+.features-content-main-row:nth-child(1):before {
+    opacity: 1;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
