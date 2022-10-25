@@ -2492,6 +2492,9 @@ section.home-featured-product {
 .product__media-list li:not(:first-child) .global-media-settings img {
     padding: 20px;
 }
+span.product__media-icon.motion-reduce.quick-add-hidden {
+    display: none;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
