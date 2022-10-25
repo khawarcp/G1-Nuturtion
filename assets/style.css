@@ -2320,6 +2320,10 @@ ul.breadcrumbs__list li:last-child a::before {
 .nutrition-slider-sec .owl-nav .owl-next.disabled:before {
     top: 7px;
 }
+.nutrition-slider-col a {
+    font-weight: 700;
+    font-size: 18px;
+}
 @media screen and (max-width:1199px){
   .home-video-sec {
     padding-bottom: 240px;
