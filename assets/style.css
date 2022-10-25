@@ -3299,6 +3299,17 @@ section.product-detail-tabing {
 table:not([class]) td, table:not([class]) th {
     font-size: 10px;
 } 
+.contact-info-section:before {
+    opacity: 0;
+}
+
+.contact-info-section:after {
+    opacity: 0;
+}
+
+.input-email input {
+    /* margin-right: 38px !important; */
+}  
 }
 @media only screen and (max-width: 425px) {
   .container {
