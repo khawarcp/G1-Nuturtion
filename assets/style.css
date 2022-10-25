@@ -3195,6 +3195,49 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
 }
 .home-social-icons {
     display: none;
+}
+.brief-history:before {
+    background-size: 50%;
+}
+
+.home-featured-price h3 span {
+    font-size: 16px !important;
+}
+
+.readmore-add-to-cart, .home-featured-price h3 {
+    font-size: 20px;
+}
+
+.price.price--on-sale.price--show-badge {
+    margin-top: 6px;
+}
+
+.review-section:before {
+    background-size: 50%;
+}
+
+.accordion_head span {
+    font-size: 20px;
+}
+
+.input-wrap {
+    width: 100%;
+}
+
+.newsletter__wrapper {
+    padding: 40px 20px !important;
+}
+
+.newsletter__wrapper h2.h1 {
+    margin-bottom: 40px;
+}
+
+.input-email input {
+    font-size: 18px;
+}
+
+.home-img-col {
+    margin-top: -32%;
 }  
 }
 @media only screen and (max-width: 425px) {
