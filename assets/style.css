@@ -2343,7 +2343,8 @@ ul.breadcrumbs__list li:last-child a::before {
     min-height: 70vh;
     display: flex;
     align-items: center;
-}  
+} 
+.home-video-sec {min-height: 126vh;}  
 }
 @media screen and (max-width:1199px){
   .home-video-sec {
