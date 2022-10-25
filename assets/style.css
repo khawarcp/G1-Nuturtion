@@ -2338,6 +2338,11 @@ ul.breadcrumbs__list li:last-child a::before {
 }
 .home-banner-row {
     justify-content: space-between;
+} 
+.who-are-they-sec {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
 }  
 }
 @media screen and (max-width:1199px){
