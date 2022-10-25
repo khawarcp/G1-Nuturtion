@@ -3245,7 +3245,31 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
 
 .home-featured-product:after {
     display: none;
-}  
+} 
+.about-brief-history:before {
+    background-size: 50%;
+}
+
+.about-brief-history:after {
+    display: none;
+}
+
+.about-breif-cus-main-img {
+    margin-top: 30px;
+}
+
+.about-brief-history {
+    padding: 60px 0px;
+}
+
+.what-needs-are:before {
+    display: none;
+}
+
+.what-needs-are:after {
+    display: none;
+}
+  
 }
 @media only screen and (max-width: 425px) {
   .container {
