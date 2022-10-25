@@ -2448,6 +2448,19 @@ section.home-featured-product {
 .features-content-main-row:nth-child(1):before {
     opacity: 1;
 }
+.contact-info-section::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 556px;
+    height: 100%;
+    background-image: url('https://cdn.shopify.com/s/files/1/0666/2904/2400/files/contact-after-img.png?v=1664886198');
+    right: 0px;
+    background-position: top right;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
