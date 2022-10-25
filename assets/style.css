@@ -3238,6 +3238,13 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
 
 .home-img-col {
     margin-top: -32%;
+} 
+.home-featured-product:before {
+    display: none;
+}
+
+.home-featured-product:after {
+    display: none;
 }  
 }
 @media only screen and (max-width: 425px) {
