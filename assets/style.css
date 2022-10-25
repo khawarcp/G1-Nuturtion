@@ -2324,6 +2324,16 @@ ul.breadcrumbs__list li:last-child a::before {
     font-weight: 700;
     font-size: 18px;
 }
+@media screen and (min-width:1920px){
+  .home-featured-product:before {
+    width: 35%;
+    background-size: cover;
+}
+
+.home-featured-product:after {
+    width: 35%;
+}
+}
 @media screen and (max-width:1199px){
   .home-video-sec {
     padding-bottom: 240px;
