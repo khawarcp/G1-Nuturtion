@@ -3,10 +3,10 @@
 <div  class="page-width">
   {% render 'breadcrumb' %}
 </div>
-
+<div class="main-product-section">
 <section
   id="MainProduct-{{ section.id }}"
-  class="page-width section-{{ section.id }}-padding main-product-section"
+  class="page-width section-{{ section.id }}-padding "
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -1183,6 +1183,7 @@
     }
   </script>
 </section>
+          </div>
 
 {% schema %}
 {
