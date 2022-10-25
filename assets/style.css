@@ -2421,6 +2421,10 @@ form#contact_form {
 .input-wrap:hover button {
     border: 1px solid transparent;
 }
+
+.newsletter__wrapper h2.h1 {
+    margin-bottom: 80px;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
