@@ -3416,6 +3416,31 @@ h1.article-template__title {
 .product__media.media.media--transparent.gradient.global-media-settings {
     padding: 0px !important;
     height: 220px;
+} 
+.brief-history-text a {
+    padding: 9px 20px;
+}
+
+.readmore-add-to-cart a {
+    padding: 9px 20px;
+    font-size: 16px;
+}
+
+a.who-readmore {
+    padding: 9px 22px;
+}
+
+button.cus-site-btn {
+    padding: 11px 20px;
+}
+
+a.cus-site-btn {
+    padding: 9px 20px;
+    /* width: 130px; */
+}
+
+a.cus-site-btn span {
+    font-size: 16px;
 }  
 }
 @media only screen and (max-width: 425px) {
