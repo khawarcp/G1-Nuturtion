@@ -3531,6 +3531,9 @@ button.product-form__submit.button.button--full-width.button--secondary {
 }
 .template-search__header {
     height: auto;
+}
+.customer {
+    height: auto;
 }  
 }
 @media only screen and (max-width: 425px) {
