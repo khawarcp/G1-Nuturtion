@@ -2852,7 +2852,21 @@ section.review-section .page-width {
 .collection .header__heading-link img, .contact-us .header__heading-link img, .features .header__heading-link img, .about-us .header__heading-link img {
     filter: none;
 }
+.collection .user-cart-icons, .contact-us .user-cart-icons, .about-us .user-cart-icons, .features .user-cart-icons {
+    background-color: #007a68;
+}
 
+.collection .user-cart-icons a svg path, .contact-us .user-cart-icons a svg path, .about-us .user-cart-icons a svg path, .features .user-cart-icons a svg path {
+    fill: #fff;
+}
+
+.collection details-modal.header__search .header__icon, .contact-us details-modal.header__search .header__icon, .about-us details-modal.header__search .header__icon, .features details-modal.header__search .header__icon {
+    background-color: #007a68;
+}
+
+.collection details-modal.header__search .header__icon svg, .contact-us details-modal.header__search .header__icon svg, .about-us details-modal.header__search .header__icon svg, .features details-modal.header__search .header__icon svg {
+    color: #fff;
+}
  
 }
 @media only screen and (max-width: 768px) {
