@@ -28,7 +28,7 @@
           "type": "slide",
           "settings": {
             "slider_img": "shopify:\/\/shop_images\/n-slider-img1.png",
-            "button_link": "#",
+            "button_link": "shopify:\/\/pages\/features",
             "button_text": "Stronge Muscle"
           }
         },
@@ -36,7 +36,7 @@
           "type": "slide",
           "settings": {
             "slider_img": "shopify:\/\/shop_images\/nutrition-img2_9ad81b85-c5d3-4f8f-b4ad-ea789b817a84.png",
-            "button_link": "#",
+            "button_link": "shopify:\/\/pages\/features",
             "button_text": "Stronge Muscle"
           }
         },
@@ -44,7 +44,7 @@
           "type": "slide",
           "settings": {
             "slider_img": "shopify:\/\/shop_images\/n-slider-img3_b3c92603-53f5-4c21-a1f4-8662354ff6de.png",
-            "button_link": "#",
+            "button_link": "shopify:\/\/pages\/features",
             "button_text": "Stronge Muscle"
           }
         },
@@ -52,7 +52,7 @@
           "type": "slide",
           "settings": {
             "slider_img": "shopify:\/\/shop_images\/nutrition-img2_9ad81b85-c5d3-4f8f-b4ad-ea789b817a84.png",
-            "button_link": "#",
+            "button_link": "shopify:\/\/pages\/features",
             "button_text": "Stronge Muscle"
           }
         }
