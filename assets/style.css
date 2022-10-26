@@ -3474,6 +3474,14 @@ a.cus-site-btn span {
 }
 .contact-info-section:before {
     display: none;
+}
+button.product-form__submit.button.button--full-width.button--secondary {
+    width: 35%;
+    padding: 12px 14px;
+}
+
+.shopify-payment-button {
+    width: 35%;
 }  
 }
 @media only screen and (max-width: 425px) {
