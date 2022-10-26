@@ -2694,6 +2694,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
 }
 .empty-div {
     height: 80px !important;
+}
+.customer {
+    height: 790px;
 }  
 }
 @media only screen and (max-width: 1024px) {
