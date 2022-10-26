@@ -2903,6 +2903,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
     max-width: 50%!important;
     width: 50%!important;
     padding-left: 15px!important;
+}
+.product__media.media.media--transparent.gradient.global-media-settings {
+    height: 220px;
 }  
 }
 @media only screen and (max-width: 768px) {
