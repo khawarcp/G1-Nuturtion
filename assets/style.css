@@ -3394,6 +3394,21 @@ h1.article-template__title {
 } 
 .main-blog.page-width {
     padding-top: 0px;
+}
+.nutrition-slider-sec .owl-nav .owl-prev:before {
+    top: 4px;
+}
+
+.nutrition-slider-sec .owl-nav .owl-prev:before {
+    top: 0px;
+}
+
+.nutrition-slider-sec .owl-nav .owl-prev.disabled:before {
+    top: 3px;
+}
+
+.nutrition-slider-sec .owl-nav .owl-next.disabled:before {
+    top: 3px;
 }  
 }
 @media only screen and (max-width: 425px) {
