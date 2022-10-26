@@ -2851,6 +2851,9 @@ section.review-section .page-width {
 }
 .collection .header__heading-link img, .contact-us .header__heading-link img, .features .header__heading-link img, .about-us .header__heading-link img {
     filter: none;
+}
+a.header__icon.header__icon--account.link.focus-inset.small-hide {
+    display: none!important;
 }  
 }
 @media only screen and (max-width: 768px) {
