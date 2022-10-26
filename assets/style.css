@@ -2677,6 +2677,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
     max-width: 45% !important;
     width: 45% !important;
     padding-left: 15px !important;
+}
+.review-section h1 {
+    margin-bottom: 30px;
 }  
 }
 @media only screen and (max-width: 1024px) {
@@ -2699,6 +2702,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
     line-height: 44px;
     width: 556.3px;
   }
+  .review-section h1 {
+    margin-bottom: 30px;
+}
   
 }
 @media screen and (max-width:991px){
