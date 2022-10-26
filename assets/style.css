@@ -3482,6 +3482,9 @@ button.product-form__submit.button.button--full-width.button--secondary {
 
 .shopify-payment-button {
     width: 35%;
+}
+.wrapper {
+    margin: 20px 0 20px 20px !important;
 }  
 }
 @media only screen and (max-width: 425px) {
