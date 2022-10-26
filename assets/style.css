@@ -2957,6 +2957,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
 
 .swiper-slide>p {
     width: 420px;
+}
+.template-search__header {
+    height: 412px;
 }  
 }
 @media only screen and (max-width: 768px) {
