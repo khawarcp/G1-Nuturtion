@@ -2906,6 +2906,14 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
 }
 .product__media.media.media--transparent.gradient.global-media-settings {
     height: 220px;
+}
+.home-featured-price h3 {
+    font-size: 20px;
+    align-items: flex-start;
+}
+
+.home-featured-price h3 span {
+    font-size: 18px;
 }  
 }
 @media only screen and (max-width: 768px) {
