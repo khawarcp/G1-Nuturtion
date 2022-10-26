@@ -3391,6 +3391,9 @@ h1.article-template__title {
 }
 .blog a.full-unstyled-link {
     font-size: 22px;
+} 
+.main-blog.page-width {
+    padding-top: 0px;
 }  
 }
 @media only screen and (max-width: 425px) {
