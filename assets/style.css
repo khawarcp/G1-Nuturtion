@@ -2630,7 +2630,10 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
     background-color: #ffff;
     border: 1px solid transparent;
 }
-
+.fancybox-bg {
+    display: block !important;
+    opacity: 0.50 !important;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
