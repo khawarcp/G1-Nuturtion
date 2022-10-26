@@ -3385,6 +3385,9 @@ table:not([class]) td, table:not([class]) th {
 } 
 .accordion_body {
     margin-top: 10px;
+} 
+h1.article-template__title {
+    font-size: 25px;
 }  
 }
 @media only screen and (max-width: 425px) {
