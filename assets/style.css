@@ -2923,6 +2923,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
 
 .wrapper {
     margin: 20px 0 10px 50px;
+}
+.swiper-content {
+    padding-left: 15px;
 }  
 }
 @media only screen and (max-width: 768px) {
