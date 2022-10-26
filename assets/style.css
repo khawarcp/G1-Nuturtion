@@ -3377,6 +3377,11 @@ table:not([class]) td, table:not([class]) th {
 }
 .collection .header__heading-link img, .contact-us .header__heading-link img, .features .header__heading-link img, .about-us .header__heading-link img {
     filter: none;
+}
+.product__info-wrapper.grid__item {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0px !important;
 }  
 }
 @media only screen and (max-width: 425px) {
@@ -3406,6 +3411,7 @@ table:not([class]) td, table:not([class]) th {
     line-height: 34px;
     margin-top: 20px;
   }
+  
 }
 
 @media only screen and (max-width: 320px) {
