@@ -2922,7 +2922,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
 }
 
 .wrapper {
-    margin: 20px 0 10px 50px;
+    margin: 20px 0 10px 50px !important;
 }
 .swiper-content {
     padding-left: 15px;
