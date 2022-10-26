@@ -2699,13 +2699,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
     line-height: 44px;
     width: 556.3px;
   }
-  .wrapper {
-    margin-left: 0px !important;
-}
-
-.swiper-slide>p {
-    width: 420px;
-}
+  
 }
 @media screen and (max-width:991px){
   .home-video-sec {
@@ -2940,7 +2934,14 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
 
 .latest-stories {
     padding: 60px 15px;
-} 
+}
+.wrapper {
+    margin-left: 0px !important;
+}
+
+.swiper-slide>p {
+    width: 420px;
+}  
 }
 @media only screen and (max-width: 768px) {
   .container {
