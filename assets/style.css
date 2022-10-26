@@ -3488,7 +3488,11 @@ button.product-form__submit.button.button--full-width.button--secondary {
 }
 .price.price--on-sale.price--show-badge {
     margin-top: 0px;
-}  
+}
+.review-section h1 {
+    margin-bottom: 20px;
+}
+  
 }
 @media only screen and (max-width: 425px) {
   .container {
