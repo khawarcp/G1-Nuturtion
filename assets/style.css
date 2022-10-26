@@ -2867,7 +2867,30 @@ section.review-section .page-width {
 .collection details-modal.header__search .header__icon svg, .contact-us details-modal.header__search .header__icon svg, .about-us details-modal.header__search .header__icon svg, .features details-modal.header__search .header__icon svg {
     color: #fff;
 }
- 
+.avail-wrap h4 {
+    font-size: 18px;
+}
+
+.avail-wrap span {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.product-form__buttons {
+    max-width: 100%;
+}
+
+button.product-form__submit.button.button--full-width.button--secondary span {
+    font-size: 14px;
+}
+
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded:after {
+    font-size: 14px;
+}
+
+.product__info-wrapper.grid__item {
+    padding-left: 15px !important;
+} 
 }
 @media only screen and (max-width: 768px) {
   .container {
