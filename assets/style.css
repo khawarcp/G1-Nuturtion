@@ -2914,6 +2914,15 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
 
 .home-featured-price h3 span {
     font-size: 18px;
+}
+.review-section:before {
+    background-size: 50%;
+    background-position: bottom right;
+    opacity:0.60;
+}
+
+.wrapper {
+    margin: 20px 0 10px 50px;
 }  
 }
 @media only screen and (max-width: 768px) {
