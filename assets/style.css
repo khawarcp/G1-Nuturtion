@@ -2637,6 +2637,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
 .lastest-story-text h4 {
     font-weight: 700 !important;
 }
+.empty-div {
+    height: 80px;
+}
 .customer,
 .template-search__header {
     height: 49vh;
