@@ -3441,6 +3441,9 @@ a.cus-site-btn {
 
 a.cus-site-btn span {
     font-size: 16px;
+}
+.main-blog.page-width h1 {
+    margin-top: 15px;
 }  
 }
 @media only screen and (max-width: 425px) {
