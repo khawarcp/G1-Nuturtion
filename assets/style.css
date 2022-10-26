@@ -2929,7 +2929,11 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
 } 
 .faqs-section h1 {
     margin-bottom: 0px;
-}  
+}
+
+.latest-stories {
+    padding: 60px 15px;
+} 
 }
 @media only screen and (max-width: 768px) {
   .container {
