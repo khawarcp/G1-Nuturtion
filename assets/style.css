@@ -2637,6 +2637,10 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
 .lastest-story-text h4 {
     font-weight: 700 !important;
 }
+.template-search__header {
+    height: 49vh;
+    padding-top: 8%;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
