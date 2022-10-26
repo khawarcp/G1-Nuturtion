@@ -2699,6 +2699,13 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
     line-height: 44px;
     width: 556.3px;
   }
+  .wrapper {
+    margin-left: 0px !important;
+}
+
+.swiper-slide>p {
+    width: 420px;
+}
 }
 @media screen and (max-width:991px){
   .home-video-sec {
