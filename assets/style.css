@@ -2634,6 +2634,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
     display: block !important;
     opacity: 0.50 !important;
 }
+.lastest-story-text h4 {
+    font-weight: 700 !important;
+}
 @media screen and (min-width:1920px){
   .home-featured-product:before {
     width: 35%;
