@@ -3412,6 +3412,10 @@ h1.article-template__title {
 
 .nutrition-slider-sec .owl-nav .owl-next.disabled:before {
     top: 3px;
+}
+.product__media.media.media--transparent.gradient.global-media-settings {
+    padding: 0px !important;
+    height: 220px;
 }  
 }
 @media only screen and (max-width: 425px) {
