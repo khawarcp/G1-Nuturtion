@@ -3485,6 +3485,9 @@ button.product-form__submit.button.button--full-width.button--secondary {
 }
 .wrapper {
     margin: 20px 0 20px 20px !important;
+}
+.price.price--on-sale.price--show-badge {
+    margin-top: 0px;
 }  
 }
 @media only screen and (max-width: 425px) {
