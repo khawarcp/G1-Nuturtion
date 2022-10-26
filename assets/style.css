@@ -2687,6 +2687,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
 }
 .review-section h1 {
     margin-bottom: 30px;
+}
+.template-search__header {
+    height: 680px;
 }  
 }
 @media only screen and (max-width: 1024px) {
