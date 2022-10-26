@@ -2926,6 +2926,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
 }
 .swiper-content {
     padding-left: 15px;
+} 
+.faqs-section h1 {
+    margin-bottom: 0px;
 }  
 }
 @media only screen and (max-width: 768px) {
