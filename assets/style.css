@@ -2898,6 +2898,11 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded:
 }
 .empty-div {
     margin-top: 15px !important;
+}
+.product__info-wrapper.grid__item {
+    max-width: 50%!important;
+    width: 50%!important;
+    padding-left: 15px!important;
 }  
 }
 @media only screen and (max-width: 768px) {
