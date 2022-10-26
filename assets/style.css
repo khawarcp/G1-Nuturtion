@@ -3519,7 +3519,9 @@ button.product-form__submit.button.button--full-width.button--secondary {
 .review-section h1 {
     margin-bottom: 20px;
 }
-  
+.template-search__header {
+    height: auto;
+}  
 }
 @media only screen and (max-width: 425px) {
   .container {
