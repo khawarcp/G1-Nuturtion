@@ -10,8 +10,8 @@
             <p> {{ product.description | split: '.' | first | append: '.'  }}  </p>
             <div class="readmore-add-to-cart">
               <a href="{{ product.url }}" class="cus-site-btn"><span>Read More</span></a>
-               <form action="/cart/add" method="post" class="">
-                  <input type="hidden" value="{{ product.variants.first.id }}" name="id">
+               <form action="/cart/add" data-productid="{{ product.id }}" method="post" class="">
+                  <input type="hidden" value="{{ product.variants.first.id }}" name="id" data-productid="{{ product.id }}">
                   <button>Add To Cart +</button>
                </form>
             </div>
