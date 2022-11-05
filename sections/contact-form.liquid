@@ -71,6 +71,10 @@
         <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
+    <div class="field">
+        <input type="file" id="ContactForm-image" class="field__input"  name="contact[image]" pattern="[0-9\-]*" value="{% if form.image %}{{ form.image }}{% endif %}" placeholder="Upload Image">
+        <label class="field__label" for="ContactForm-image">upload</label>
+      </div>
       <div class="field">
         <textarea
           rows="10"
